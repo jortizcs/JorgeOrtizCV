@@ -1,0 +1,146 @@
+\documentclass[10pt,a4paper]{article}
+
+%COMPILING: IMPORTANT INFORMATION
+% You'll need to generate a .bbl file from
+% the .bib file first, otherwise the publications
+% will not show up in the cv.
+
+% in TeXstudio, this means
+% 1. F1 or F6 for usual compiling (generate .aux)
+% 2. F8 for bibliography compiling (generate .bbl)
+% 3. F1 or F6 for usual compiling once more(generate .pdf)
+
+% use your favourite citation style here
+% \usepackage{apacite}
+
+\usepackage[left=2.5cm,right=2.5cm,top=1.5cm,bottom=2.5cm]{geometry}
+\usepackage{enumitem}
+
+
+% as bibentry and hyperref clash in some cases, this is a workaround
+% as suggested by the following two links:
+%https://tex.stackexchange.com/questions/227933/using-bibentry-to-cite-in-text-reference-with-apacite
+% and
+%https://tex.stackexchange.com/questions/65348/clash-between-bibentry-and-hyperref-with-bibstyle-elsart-harv/65401#65401
+\usepackage{bibentry}
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+\usepackage[colorlinks=true]{hyperref}
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+
+
+% hanging publications: 1st line starts at beginning of line, 
+% further lines are placed a bit to the right
+\usepackage{hanging}
+\newcommand\publication[1]{%
+	\smallskip\par\hangpara{1.5em}{1}\bibentry{#1}\smallskip
+}
+
+
+\begin{document}
+	
+	% bibliography
+	\nobibliography{10_workshops.bib, 11_conf-journ.bib, 12_publications.bib, 20_under-submission.bib, 30_patents.bib}
+% 	\nobibliography{10_workshops.bib, 11_conf-journ.bib, 12_publications.bib, 20_under-submission.bib}
+% 	\bibliographystyle{apacite}	
+	\bibliographystyle{acm}
+	
+	\section*{Under Submission}
+	\begin{enumerate}
+	    \item \publication{ortiz_inagt_multisensor}
+	    \item \publication{chowdhury_cadence}
+	    \item \publication{aldeer_multibottle}
+	    \item \publication{rlad}
+	\end{enumerate}
+	
+	\section*{Conferences and Journals}
+	\begin{enumerate}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
+	    %\item \publication{2021_aldeer_multibottle}
+        \item \publication{10.1145/3417991}
+        \item \publication{9076254}
+        \item \publication{10.1145/3360774.3360796}
+        \item \publication{10.1145/3302505.3310073}
+            [\textbf{28\% Acceptance Rate, \textcolor{red}{Best Paper Finalist}}]
+        \item \publication{icissp18}
+            [\textbf{21\% Acceptance Rate, \textcolor{red}{Best Paper Award}}]
+        \item \publication{8260617}
+            [\textbf{17\% Acceptance Rate}]
+        \item \publication{7953300}
+        \item \publication{10.1145/3007646.3007653}
+            [\textbf{21\% Acceptance Rate}]
+        \item \publication{10.1145/2821650.2821657}
+            [\textbf{23\% Acceptance Rate, \textcolor{red}{Best Paper Finalist (2nd Highest Review Score)}}]
+        \item \publication{10.1145/2821650.2821667}
+            [\textbf{23\% Acceptance Rate, \textcolor{red}{Best Paper Finalist, 1st Highest Review Score}}]
+        \item \publication{190492}
+            [\textbf{28\% Acceptance Rate}]
+        \item \publication{6917580}
+            [\textbf{20\% Acceptance Rate}]
+        \item \publication{Msdas}
+        \item \publication{10.1145/1869983.1870003}
+            [\textbf{17\% Acceptance Rate}]
+        \item \publication{10.1145/1791212.1791233}
+            [\textbf{17\% Acceptance Rate}]
+        \item \publication{10.1145/1236360.1236383}
+            [\textbf{22\% Acceptance Rate}]
+    \end{enumerate}
+
+	\section*{Workshops, Posters, and Technical Reports}	
+	
+
+    \begin{enumerate}[topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex]
+        \item \publication{2021_rlad}
+        \item \publication{10.1145/3360773.3360886}
+        \item \publication{10.1145/3360322.3361011}
+        \item \publication{10.1145/3356250.3361933}
+        \item \publication{8489319}
+        \item \publication{Lee2018TimeSS}
+        \item \publication{KATZ20117}
+        \item \publication{10.1145/1317103.1317112}
+        \item \publication{10.1145/1460412.1460478}
+            [\textbf{\textcolor{red}{Best Poster Award}}]
+        \item \publication{Bhattacharya:EECS-2014-159}
+        \item \publication{Ortiz:EECS-2010-128}
+        \item \publication{DBLP:journals/corr/HongOBW15}
+        \item \publication{10.1145/1978642.1978648}
+        \item \publication{10.1145/2668332.2668369}
+        \item \publication{7746808}
+        \item \publication{icml_mkmeans}
+        \item \publication{10.1145/2993422.2996398}
+        \item \publication{10.1145/2993422.2996401}
+        \item \publication{6476843}
+        \item \publication{10.1145/2528282.2528302}
+        \item \publication{10.1145/2422531.2422540}
+        \item \publication{10.1145/1878431.1878444}
+        \item \publication{Dawson-Haggerty:EECS-2008-109}
+        \item \publication{10.1145/1317103.1317109}
+    \end{enumerate}
+    
+    \section*{Ph.D. Thesis}
+    \begin{enumerate}
+        \item \publication{Ortiz:EECS-2013-196}
+    \end{enumerate}
+    
+    \section*{Masters Thesis}
+    \begin{enumerate}
+        \item \publication{Ortiz:EECS-2010-65}
+    \end{enumerate}
+    
+    \section*{Patents Issued}
+    \begin{enumerate}
+        \item \publication{patent_12}
+        \item \publication{patent_11}
+        \item \publication{patent_10}
+        \item \publication{patent_9}
+        \item \publication{patent_8}
+        \item \publication{patent_7}
+        \item \publication{patent_6}
+        \item \publication{patent_5}
+        \item \publication{patent_4}
+        \item \publication{patent_3}
+        \item \publication{patent_2}
+        \item \publication{patent_1}
+    \end{enumerate}
+	
+	
+	
+\end{document}

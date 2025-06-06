@@ -1,0 +1,610 @@
+\begin{thebibliography}{10}
+
+\bibitem{2021_9076254}
+{\sc Akmandor, A.~O., Ortiz, J., Manotas, I., Ko, B., and Jha, N.~K.}
+\newblock Secret: Semantically enhanced classification of real-world tasks.
+\newblock {\em IEEE Transactions on Computers 70}, 3 (2021), 440--456.
+
+\bibitem{2019_10.1145/3360773.3360886}
+{\sc Aldeer, M., Alaziz, M., Ortiz, J., Howard, R.~E., and Martin, R.~P.}
+\newblock A sensing-based framework for medication compliance monitoring.
+\newblock In {\em Proceedings of the 1st ACM International Workshop on
+  Device-Free Human Sensing\/} (New York, NY, USA, 2019), DFHS'19, Association
+  for Computing Machinery, p.~52–56.
+
+\bibitem{2019_10.1145/3356250.3361933}
+{\sc Aldeer, M., Florentine, J., Kolodziejski, J., Ortiz, J., Howard, R.~E.,
+  and Martin, R.~P.}
+\newblock Patient identification using a smart pill-bottle: Poster abstract.
+\newblock In {\em Proceedings of the 17th Conference on Embedded Networked
+  Sensor Systems\/} (New York, NY, USA, 2019), SenSys '19, Association for
+  Computing Machinery, p.~424–425.
+
+\bibitem{2021_cphs02_pill}
+{\sc Aldeer, M., Howard, R., Martin, R.~P., and Ortiz, J.}
+\newblock Is that you again? adaptive learning techniques for user
+  identification in smart pill bottle systems.
+\newblock In {\em 2021 IEEE The First International Workshop on
+  Cyber-Physical-Human System Design and Implementation\/} (2021).
+
+\bibitem{2021_aldeer_multibottle}
+{\sc Aldeer, M., Howard, R.~E., Martin, R.~P., and Ortiz, J.}
+\newblock Unobtrusive patient identification using smart pill-bottle systems.
+\newblock {\em Internet of Things 14\/} (2021), 100389.
+
+\bibitem{2022_aldeer2022monitoring}
+{\sc Aldeer, M., Javanmard, M., Ortiz, J., and Martin, R.}
+\newblock {\em Monitoring Technologies for Quantifying Medication Adherence}.
+\newblock Springer International Publishing, 4 2022, pp.~49--78.
+
+\bibitem{2019_10.1145/3360774.3360796}
+{\sc Aldeer, M., Ortiz, J., Howard, R.~E., and Martin, R.~P.}
+\newblock Patientsense: Patient discrimination from in-bottle sensors data.
+\newblock In {\em Proceedings of the 16th EAI International Conference on
+  Mobile and Ubiquitous Systems: Computing, Networking and Services\/} (New
+  York, NY, USA, 2019), MobiQuitous '19, Association for Computing Machinery,
+  p.~143–152.
+
+\bibitem{2023_Aldeer_Testbed}
+{\sc Aldeer, M., Sun, Y., Pai, N., Florentine, J., Yu, J., and Ortiz, J.}
+\newblock Poster abstract: A testbed for context representation in physical
+  spaces.
+\newblock In {\em Proceedings of the 22nd International Conference on
+  Information Processing in Sensor Networks\/} (New York, NY, USA, 2023), IPSN
+  '23, Association for Computing Machinery, p.~336–337.
+
+\bibitem{2022_9804515}
+{\sc Aldeer, M., Waterworth, D., Hussain, Z., Chowdhury, T., Brito, C., Sheng,
+  Q.~Z., Martin, R.~P., and Ortiz, J.}
+\newblock Medbuds: In-ear inertial medication taking detection using smart
+  wireless earbuds.
+\newblock In {\em 2022 2nd International Workshop on Cyber-Physical-Human
+  System Design and Implementation (CPHS)\/} (2022), pp.~19--23.
+
+\bibitem{2023_10.1145/3583120.3589839}
+{\sc Aldeer, M., Waterworth, D., Jain, P., Meng, X., Martin, R.~P., and Ortiz,
+  J.}
+\newblock Poster abstract: A radar based user discrimination system for
+  medication adherence monitoring.
+\newblock In {\em Proceedings of the 22nd International Conference on
+  Information Processing in Sensor Networks\/} (New York, NY, USA, 2023), IPSN
+  '23, Association for Computing Machinery, p.~338–339.
+
+\bibitem{2014_10.1145/2668332.2668369}
+{\sc Bhattacharya, A., Culler, D., Hong, D., Whitehouse, K., and Ortiz, J.}
+\newblock Automated metadata transformation for a-priori deployed sensor
+  networks.
+\newblock In {\em Proceedings of the 12th ACM Conference on Embedded Network
+  Sensor Systems\/} (New York, NY, USA, 2014), SenSys '14, Association for
+  Computing Machinery, p.~364–365.
+
+\bibitem{2014_10.1145/2674061.2675031}
+{\sc Bhattacharya, A., Culler, D., Hong, D., Whitehouse, K., and Ortiz, J.}
+\newblock Writing scalable building efficiency applications using normalized
+  metadata: Demo abstract.
+\newblock In {\em Proceedings of the 1st ACM Conference on Embedded Systems for
+  Energy-Efficient Buildings\/} (New York, NY, USA, 2014), BuildSys '14,
+  Association for Computing Machinery, p.~196–197.
+
+\bibitem{2014_Bhattacharya:EECS-2014-159}
+{\sc Bhattacharya, A., Culler, D.~E., Ortiz, J., Hong, D., and Whitehouse, K.}
+\newblock Enabling portable building applications through automated metadata
+  transformation.
+\newblock Tech. Rep. UCB/EECS-2014-159, EECS Department, University of
+  California, Berkeley, Aug 2014.
+
+\bibitem{2015_10.1145/2821650.2821667}
+{\sc Bhattacharya, A.~A., Hong, D., Culler, D., Ortiz, J., Whitehouse, K., and
+  Wu, E.}
+\newblock Automated metadata construction to support portable building
+  applications.
+\newblock In {\em Proceedings of the 2nd ACM International Conference on
+  Embedded Systems for Energy-Efficient Built Environments\/} (New York, NY,
+  USA, 2015), BuildSys '15, Association for Computing Machinery, p.~3–12.
+
+\bibitem{2023_10001054}
+{\sc Burns, T., Song, C., Seskar, I., Ortiz, J., and Martin, R.~P.}
+\newblock A simplified machine learning approach to classifying individual
+  websites.
+\newblock In {\em GLOBECOM 2022 - 2022 IEEE Global Communications Conference\/}
+  (2022), pp.~6109--6114.
+
+\bibitem{2021_9677368}
+{\sc Burns, T.~L., Martin, R.~P., Ortiz, J., Seskar, I., Stojadinovic, D.,
+  Davis, R., and Camelo, M.}
+\newblock Evaluating deep learning networks for modulation recognition.
+\newblock In {\em 2021 IEEE International Symposium on Dynamic Spectrum Access
+  Networks (DySPAN)\/} (2021), pp.~25--32.
+
+\bibitem{2021_9686084}
+{\sc Burns, T.~L., Martin, R.~P., Ortiz, J., Seskar, I., Stojadinovic, D.,
+  Davis, R., and Camelo, M.}
+\newblock Synthetic wireless signal generation for neural network algorithms.
+\newblock In {\em 2021 IEEE Conference on Standards for Communications and
+  Networking (CSCN)\/} (2021), pp.~174--179.
+
+\bibitem{patent_10}
+{\sc Calo, S.~B., Freimuth, D.~M., Kandlur, D.~D., Le, T.~F., Nahum, E., Ortiz,
+  J.~J., Touma, M., and Verma, D.~C.}
+\newblock Automatic protocol discovery using text analytics.
+\newblock In {\em US 2019/16127615\/} (03 2020).
+
+\bibitem{patent_8}
+{\sc Calo, S.~B., Mel, G. R.~D., Grueneberg, K.~W., Ortiz, J.~J., Wang, X., and
+  III, D. A.~W.}
+\newblock Adaptive query targeting in a dynamic distributed environment.
+\newblock In {\em US 2019/10334025\/} (06 2018).
+
+\bibitem{patent_3}
+{\sc Chakraborty, S., Grueneberg, K., Ko, B., Makaya, C., Ortiz, J.~J.,
+  Rallapalli, S., Salonidis, T., Urgaonkar, R., Verma, D., and Wang, X.}
+\newblock Recommendations based on private data using a dynamically deployed
+  pre-filter extending cloud computing to on-premises data.
+\newblock In {\em US 2017/0140426A1\/} (05 2017).
+
+\bibitem{patent_13}
+{\sc Chakraborty, S., Grueneberg, K., Ko, B., Makaya, C., Ortiz, J.~J.,
+  Rallapalli, S., Salonidis, T., Urgaonkar, R., Verma, D., and Wang, X.}
+\newblock Recommendations based on private data using a dynamically deployed
+  pre-filter.
+\newblock \url{https://patents.google.com/patent/US17938405}, 2 2023.
+\newblock US Patent App. 17/938,405.
+
+\bibitem{2018_10.1117/12.2306009}
+{\sc Chakraborty, S., Ortiz, J., and Julier, S.}
+\newblock {Role of influence functions in model interpretability (Conference
+  Presentation)}.
+\newblock In {\em Ground/Air Multisensor Interoperability, Integration, and
+  Networking for Persistent ISR IX\/} (2018), M.~A. Kolodny, D.~M. Wiegmann,
+  and T.~Pham, Eds., vol.~10635, International Society for Optics and
+  Photonics, SPIE.
+
+\bibitem{patent_6}
+{\sc Chakraborty, S., Ortiz, J.~J., and III, D. A.~W.}
+\newblock Query-target refinement in a distributed mobile system.
+\newblock In {\em US 2018/15202747\/} (01 2018).
+
+\bibitem{2021_cphs01_maestro}
+{\sc Chowdhury, T., Aldeer, M., Yu, J., Florentine, J., Haynes, A., and Ortiz,
+  J.}
+\newblock Is general purpose sensing a pipe dream? a case study in ambient
+  multi-sensing for human activity recognition.
+\newblock In {\em 2021 IEEE The First International Workshop on
+  Cyber-Physical-Human System Design and Implementation\/} (2021).
+
+\bibitem{2021_balances_buildsys}
+{\sc Chowdhury, T., Bhatti, A., Mandel, I., Ehsan, T., Ju, W., and Ortiz, J.}
+\newblock Towards sensing urban-scale covid-19 policy compliance in new york
+  city.
+\newblock In {\em Proceedings of the 8th ACM International Conference on
+  Systems for Energy-Efficient Buildings, Cities, and Transportation\/} (New
+  York, NY, USA, 2021), BuildSys '21, Association for Computing Machinery,
+  p.~353–356.
+
+\bibitem{2021_fatesys_buildsys}
+{\sc Chowdhury, T., Ding, Q., Mandel, I., Ju, W., and Ortiz, J.}
+\newblock Tracking urban heartbeat and policy compliance through vision and
+  language-based sensing.
+\newblock In {\em Proceedings of the 8th ACM International Conference on
+  Systems for Energy-Efficient Buildings, Cities, and Transportation\/} (New
+  York, NY, USA, 2021), BuildSys '21, Association for Computing Machinery,
+  p.~302–306.
+
+\bibitem{chowdhury2024designing}
+{\sc Chowdhury, T., Mandel, I., Ortiz, J., and Ju, W.}
+\newblock Designing a user-centric framework for information quality ranking of
+  large-scale street view images, 2024.
+
+\bibitem{2022_chowdhury_cadence}
+{\sc Chowdhury, T., and Ortiz, J.}
+\newblock Cadence: A practical timeseries partitioning algorithm for unlabeled
+  sensor streams.
+
+\bibitem{2010_10.1145/1869983.1870003}
+{\sc Dawson-Haggerty, S., Jiang, X., Tolle, G., Ortiz, J., and Culler, D.}
+\newblock Smap: A simple measurement and actuation profile for physical
+  information.
+\newblock In {\em Proceedings of the 8th ACM Conference on Embedded Networked
+  Sensor Systems\/} (New York, NY, USA, 2010), SenSys '10, Association for
+  Computing Machinery, p.~197–210.
+
+\bibitem{2010_10.1145/1978642.1978648}
+{\sc Dawson-Haggerty, S., Ortiz, J., Jiang, X., Hsu, J., Shankar, S., and
+  Culler, D.}
+\newblock Enabling green building applications.
+\newblock In {\em Proceedings of the 6th Workshop on Hot Topics in Embedded
+  Networked Sensors\/} (New York, NY, USA, 2010), HotEmNets '10, Association
+  for Computing Machinery.
+
+\bibitem{2008_Dawson-Haggerty:EECS-2008-109}
+{\sc Dawson-Haggerty, S., Ortiz, J., Jiang, X.~F., and Culler, D.~E.}
+\newblock The effect of link churn on wireless routing.
+\newblock Tech. Rep. UCB/EECS-2008-109, EECS Department, University of
+  California, Berkeley, Aug 2008.
+
+\bibitem{patent_9}
+{\sc Desai, N.~V., Ko, B.~J., Ortiz, J.~J., Rallapalli, S., Salonidis, T.,
+  Urgaonkar, R., and Verma, D.~C.}
+\newblock System, method, and recording medium for data mining between private
+  and public domains.
+\newblock In {\em US 2019/10394912\/} (08 2018).
+
+\bibitem{2012_sbs:workshop2012}
+{\sc Fontugne, R., Ortiz, J., Culler, D., and Esaki, H.}
+\newblock Empirical mode decomposition for intrinsic-relationship extraction in
+  large sensor deployments.
+\newblock In {\em Proceedings of the 1st Workshop on Internet of Things
+  Applications, IoT-App\/} (Beijing, China, 2012), IPSN '12, ACM.
+
+\bibitem{2013_6917580}
+{\sc {Fontugne}, R., {Ortiz}, J., {Tremblay}, N., {Borgnat}, P., {Flandrin},
+  P., {Fukuda}, K., {Culler}, D., and {Esaki}, H.}
+\newblock Strip, bind, and search: A method for identifying abnormal energy
+  consumption in buildings.
+\newblock In {\em 2013 ACM/IEEE International Conference on Information
+  Processing in Sensor Networks (IPSN)\/} (2013), pp.~129--140.
+
+\bibitem{2016_10.1145/3007646.3007653}
+{\sc Ganti, R., Srivatsa, M., Agrawal, D., Zerfos, P., and Ortiz, J.}
+\newblock Mp-trie: Fast spatial queries on moving objects.
+\newblock In {\em Proceedings of the Industrial Track of the 17th International
+  Middleware Conference\/} (New York, NY, USA, 2016), Middleware Industry '16,
+  Association for Computing Machinery.
+
+\bibitem{2017_8260617}
+{\sc {Gao}, Y., {Schay}, A., {Hou}, D., and {Ortiz}, J.}
+\newblock Home appliance energy disaggregation using low frequency data and
+  machine learning classifiers.
+\newblock In {\em 2017 16th IEEE International Conference on Machine Learning
+  and Applications (ICMLA)\/} (2017), pp.~76--83.
+
+\bibitem{2024_Grimalovsky}
+{\sc Grimalovsky, M., Walter, H., and Ortiz, J.}
+\newblock Enhancing human-robot interaction with multimodal large language
+  models.
+\newblock In {\em Proceedings of the Workshop on Enhancing Human-Robot
+  Interaction, HRI 2024\/} (2024).
+
+\bibitem{patent_7}
+{\sc Grueneberg, K.~W., Ko, B.~J., Makaya, C., MasIi, M.~N., Ortiz, J.~J.,
+  Rallapalli, S., Salonidis, T., Urgaonkar, R., Verma, D.~C., and Wang, X.}
+\newblock System, method, and recording medium for recipe and shopping list
+  recommendation.
+\newblock In {\em US 2018/15224568\/} (02 2018).
+
+\bibitem{patent_4}
+{\sc Grueneberg, K.~W., Ko, B.~J., Makaya, C., Ortiz, J.~J., RaIlapaIli, S.,
+  Salonidis, T., Urgaonkar, R., Verma, D.~C., and Wang, X.}
+\newblock Techniques for shopping recommendations based on social ties.
+\newblock In {\em US 2017/15074673\/} (09 2017).
+
+\bibitem{patent_1}
+{\sc Grueneberg, K.~W., Ko, B.~J., Ortiz, J.~J., Salonidis, T., Urgaonkar, R.,
+  Verma, D.~C., and Wang, X.}
+\newblock Matching untagged data sources to untagged data analysis
+  applications.
+\newblock In {\em US 2015/743130\/} (06 2015).
+
+\bibitem{patent_2}
+{\sc Grueneberg, K.~W., Ko, B.~J., Ortiz, J.~J., Salonidis, T., Urgaonkar, R.,
+  Verma, D.~C., and Wang, X.}
+\newblock Extending cloud computing to on-premises data.
+\newblock In {\em US 2016/9342357\/} (05 2016).
+
+\bibitem{2015_DBLP:journals/corr/HongOBW15}
+{\sc Hong, D., Ortiz, J., Bhattacharya, A.~A., and Whitehouse, K.}
+\newblock Sensor-type classification in buildings.
+\newblock {\em CoRR abs/1509.00498\/} (2015).
+
+\bibitem{2013_10.1145/2528282.2528302}
+{\sc Hong, D., Ortiz, J., Whitehouse, K., and Culler, D.}
+\newblock Towards automatic spatial verification of sensor placement in
+  buildings.
+\newblock In {\em Proceedings of the 5th ACM Workshop on Embedded Systems For
+  Energy-Efficient Buildings\/} (New York, NY, USA, 2013), BuildSys'13,
+  Association for Computing Machinery, p.~1–8.
+
+\bibitem{2015_10.1145/2821650.2821657}
+{\sc Hong, D., Wang, H., Ortiz, J., and Whitehouse, K.}
+\newblock The building adapter: Towards quickly applying building analytics at
+  scale.
+\newblock In {\em Proceedings of the 2nd ACM International Conference on
+  Embedded Systems for Energy-Efficient Built Environments\/} (New York, NY,
+  USA, 2015), BuildSys '15, Association for Computing Machinery, p.~123–132.
+
+\bibitem{2010_10.1145/1878431.1878444}
+{\sc Hsu, J., Mohan, P., Jiang, X., Ortiz, J., Shankar, S., Dawson-Haggerty,
+  S., and Culler, D.}
+\newblock Hbci: Human-building-computer interaction.
+\newblock In {\em Proceedings of the 2nd ACM Workshop on Embedded Sensing
+  Systems for Energy-Efficiency in Building\/} (New York, NY, USA, 2010),
+  BuildSys '10, Association for Computing Machinery, p.~55–60.
+
+\bibitem{2015_190492}
+{\sc Huang, C.-C., Chen, Q., Wang, Z., Power, R., Ortiz, J., Li, J., and Xiao,
+  Z.}
+\newblock Spartan: A distributed array framework with smart tiling.
+\newblock In {\em 2015 {USENIX} Annual Technical Conference ({USENIX} {ATC}
+  15)\/} (Santa Clara, CA, July 2015), {USENIX} Association, pp.~1--15.
+
+\bibitem{2022_10.1145/3491245}
+{\sc Hussain, Z., Sheng, Q.~Z., Zhang, W.~E., Ortiz, J., and Pouriyeh, S.}
+\newblock Non-invasive techniques for monitoring different aspects of sleep: A
+  comprehensive review.
+\newblock {\em ACM Trans. Comput. Healthcare 3}, 2 (mar 2022).
+
+\bibitem{2021_toothbrushing_iot}
+{\sc Hussain, Z., Waterworth, D., Aldeer, M., Zhang, W.~E., Sheng, Q.~Z., and
+  Ortiz, J.}
+\newblock Do you brush your teeth properly? an off-body sensor-based approach
+  for toothbrushing monitoring.
+\newblock In {\em 2021 IEEE International Conference on Digital Health
+  (ICDH)\/} (2021), pp.~59--69.
+
+\bibitem{2007_10.1145/1317103.1317109}
+{\sc Jiang, X., Taneja, J., Ortiz, J., Tavakoli, A., Dutta, P., Jeong, J.,
+  Culler, D., Levis, P., and Shenker, S.}
+\newblock An architecture for energy management in wireless sensor networks.
+\newblock {\em SIGBED Rev. 4}, 3 (July 2007), 31–36.
+
+\bibitem{2020_10.1145/3417991}
+{\sc Ju, W., Yavo-Ayalon, S., Mandel, I., Saldarini, F., Friedman, N., Sibi,
+  S., Zamfirescu-Pereira, J.~D., and Ortiz, J.}
+\newblock Tracking urban mobility and occupancy under social distancing policy.
+\newblock {\em Digit. Gov.: Res. Pract. 1}, 4 (Oct. 2020).
+
+\bibitem{patent_12}
+{\sc Kandlur, D.~D., Freimuth, D.~M., Le, T.~F., Nahum, E., and Ortiz, J.~J.}
+\newblock Name based internet of things (iot) data discovery.
+\newblock In {\em US Patent 2019/10735370\/} (08 2020).
+
+\bibitem{2011_KATZ20117}
+{\sc Katz, R.~H., Culler, D.~E., Sanders, S., Alspaugh, S., Chen, Y.,
+  Dawson-Haggerty, S., Dutta, P., He, M., Jiang, X., Keys, L., Krioukov, A.,
+  Lutz, K., Ortiz, J., Mohan, P., Reutzel, E., Taneja, J., Hsu, J., and
+  Shankar, S.}
+\newblock An information-centric energy infrastructure: The berkeley view.
+\newblock {\em Sustainable Computing: Informatics and Systems 1}, 1 (2011), 7
+  -- 22.
+
+\bibitem{patent_11}
+{\sc Ko, B., Makaya, C., Ortiz, J.~J., and Verma, D.~C.}
+\newblock Monitoring and management of software as a service in micro cloud
+  environments.
+\newblock In {\em US 2019/10623276\/} (04 2020).
+
+\bibitem{patent_5}
+{\sc Ko, B.~J., Makaya, C., Ortiz, J.~J., Rallapalli, S., Verma, D.~C., and
+  Wang, X.}
+\newblock System, method, and recording medium for distributed probabilistic
+  eidetic querying, rollback, and replay.
+\newblock In {\em US 2017/15186758\/} (12 2017).
+
+\bibitem{2016_10.1145/2993422.2996401}
+{\sc Ko, B.~J., Ortiz, J., Salonidis, T., Touma, M., Verma, D., Wang, S., Wang,
+  X., and Wood, D.}
+\newblock Acoustic signal processing for anomaly detection in machine room
+  environments: Demo abstract.
+\newblock In {\em Proceedings of the 3rd ACM International Conference on
+  Systems for Energy-Efficient Built Environments\/} (New York, NY, USA, 2016),
+  BuildSys '16, Association for Computing Machinery, p.~213–214.
+
+\bibitem{2011_6476843}
+{\sc {Lanzisera}, S., {Dawson-Haggerty}, S., {Jiang}, X., {Cheung}, H.~Y.,
+  {Taneja}, J., {Lai}, J., {Ortiz}, J., {Culler}, D., and {Brown}, R.}
+\newblock Wireless electricity metering of miscellaneous and electronic devices
+  in buildings.
+\newblock In {\em 2011 Future of Instrumentation International Workshop (FIIW)
+  Proceedings\/} (2011), pp.~16--19.
+
+\bibitem{2018_icissp18}
+{\sc Lee., W., \textbf{Jorge Ortiz.}, Ko., B., and Lee., R.}
+\newblock Inferring smartphone users’ handwritten patterns by using motion
+  sensors.
+\newblock In {\em Proceedings of the 4th International Conference on
+  Information Systems Security and Privacy - Volume 1: ICISSP,\/} (2018),
+  INSTICC, SciTePress, pp.~139--148.
+
+\bibitem{2018_Lee2018TimeSS}
+{\sc Lee, W.-H., Ortiz, J., Ko, B., and Lee, R.}
+\newblock Time series segmentation through automatic feature learning.
+\newblock {\em ArXiv abs/1801.05394\/} (2018).
+
+\bibitem{2013_Msdas}
+{\sc Maasoumy, M., \textbf{Jorge Ortiz}, Culler, D., and
+  Sangiovanni-Vincentelli, A.}
+\newblock Flexibility of commercial building hvac fan as ancillary service for
+  smart grid.
+\newblock In {\em IEEE Green Energy and Smart Systems Conference\/} (Oct 2013).
+
+\bibitem{2016_7746808}
+{\sc {Mehra}, M., {Bagri}, A., {Jiang}, X., and {Ortiz}, J.}
+\newblock Image analysis for identifying mosquito breeding grounds.
+\newblock In {\em 2016 IEEE International Conference on Sensing, Communication
+  and Networking (SECON Workshops)\/} (2016), pp.~1--6.
+
+\bibitem{2018_8489319}
+{\sc {Nutter}, M., {Crawford}, C.~H., and {Ortiz}, J.}
+\newblock Design of novel deep learning models for real-time human activity
+  recognition with mobile phones.
+\newblock In {\em 2018 International Joint Conference on Neural Networks
+  (IJCNN)\/} (2018), pp.~1--8.
+
+\bibitem{pmlr-v205-ondras23a}
+{\sc Ondras, J., Anwar, A., Wu, T., Bu, F., Jung, M., Ortiz, J.~J., and
+  Bhattacharjee, T.}
+\newblock Human-robot commensality: Bite timing prediction for robot-assisted
+  feeding in groups.
+\newblock In {\em Proceedings of The 6th Conference on Robot Learning\/}
+  (14--18 Dec 2023), K.~Liu, D.~Kulic, and J.~Ichnowski, Eds., vol.~205 of {\em
+  Proceedings of Machine Learning Research}, PMLR, pp.~921--933.
+
+\bibitem{2010_Ortiz:EECS-2010-65}
+{\sc Ortiz, J.}
+\newblock Multichannel reliability assessment in real world wsns.
+\newblock Master's thesis, EECS Department, University of California, Berkeley,
+  May 2010.
+
+\bibitem{2010_Ortiz:EECS-2010-128}
+{\sc Ortiz, J.}
+\newblock A system for managing physical data in buildings.
+\newblock Tech. Rep. UCB/EECS-2010-128, EECS Department, University of
+  California, Berkeley, Sep 2010.
+
+\bibitem{2013_Ortiz:EECS-2013-196}
+{\sc Ortiz, J.}
+\newblock {\em A Platform Architecture for Sensor Data Processing and
+  Verification in Buildings}.
+\newblock PhD thesis, EECS Department, University of California, Berkeley, Dec
+  2013.
+
+\bibitem{2007_10.1145/1236360.1236383}
+{\sc Ortiz, J., Baker, C.~R., Moon, D., Fonseca, R., and Stoica, I.}
+\newblock Beacon location service: A location service for point-to-point
+  routing in wireless sensor networks.
+\newblock In {\em Proceedings of the 6th International Conference on
+  Information Processing in Sensor Networks\/} (New York, NY, USA, 2007), IPSN
+  '07, Association for Computing Machinery, p.~166–175.
+
+\bibitem{2019_10.1145/3302505.3310073}
+{\sc Ortiz, J., Crawford, C., and Le, F.}
+\newblock Devicemien: Network device behavior modeling for identifying unknown
+  iot devices.
+\newblock In {\em Proceedings of the International Conference on Internet of
+  Things Design and Implementation\/} (New York, NY, USA, 2019), IoTDI '19,
+  Association for Computing Machinery, p.~106–117.
+
+\bibitem{2008_10.1145/1460412.1460478}
+{\sc Ortiz, J., and Culler, D.}
+\newblock Exploring diversity: Evaluating the cost of frequency diversity in
+  communication and routing.
+\newblock In {\em Proceedings of the 6th ACM Conference on Embedded Network
+  Sensor Systems\/} (New York, NY, USA, 2008), SenSys '08, Association for
+  Computing Machinery, p.~411–412.
+
+\bibitem{2010_10.1145/1791212.1791233}
+{\sc Ortiz, J., and Culler, D.}
+\newblock Multichannel reliability assessment in real world wsns.
+\newblock In {\em Proceedings of the 9th ACM/IEEE International Conference on
+  Information Processing in Sensor Networks\/} (New York, NY, USA, 2010), IPSN
+  '10, Association for Computing Machinery, p.~162–173.
+
+\bibitem{2016_icml_mkmeans}
+{\sc Ortiz, J., Huang, C., and Chakraborty, S.}
+\newblock Get more with less: Fast image clustering on network of mobile
+  phones.
+\newblock {\em 1st Workshop for On Device Intelligence at The International
+  Conference on Machine Learning (ICML 2016)\/} (Nov 2016), 16--19.
+
+\bibitem{2016_10.1145/2993422.2996398}
+{\sc Ortiz, J., and Kim, Y.}
+\newblock Project tidy: Ranking time series for smart energy systems: Poster
+  abstract.
+\newblock In {\em Proceedings of the 3rd ACM International Conference on
+  Systems for Energy-Efficient Built Environments\/} (New York, NY, USA, 2016),
+  BuildSys '16, Association for Computing Machinery, p.~227–228.
+
+\bibitem{2012_10.1145/2422531.2422540}
+{\sc Ortiz, J., Noh, Y., Saldanha, G., Su, D., and Culler, D.}
+\newblock Towards real-time, fine-grained energy analytics in buildings through
+  mobile phones.
+\newblock In {\em Proceedings of the Fourth ACM Workshop on Embedded Sensing
+  Systems for Energy-Efficiency in Buildings\/} (New York, NY, USA, 2012),
+  BuildSys '12, Association for Computing Machinery, p.~42–44.
+
+\bibitem{ortiz2024aligncap}
+{\sc Ortiz, J., and Pargoo, N.~S.}
+\newblock Aligncap: Fine-grained latent alignment via contrastive learning for
+  region-level captioning, December 2024.
+\newblock Under submission.
+
+\bibitem{ortiz2024sass}
+{\sc Pargoo, N.~S., Turkcan, M.~K., Xia, S., Zang, C., Sun, Y., Ehsan, T.,
+  Ghasemi, M., Ghaderi, J., Zussman, G., Kostic, Z., and Ortiz, J.}
+\newblock The streetscape application services stack (sass): Towards a
+  distributed sensing architecture for urban applications.
+\newblock Under submission, November 2024.
+
+\bibitem{2022_rivas2022planning}
+{\sc Rivas, P., Ortiz, J., Diaz, D., and Montoya, L.}
+\newblock Planning a center for standards and ethics in artificial
+  intelligence.
+\newblock In {\em Proc. Int. Conf. Mach. Learn. Res.(PMLR)\/} (2022),
+  pp.~1--10.
+
+\bibitem{sun2024vchar}
+{\sc Sun, Y., Pargoo, N.~S., Ehsan, T., Zhang, Z., and Ortiz, J.}
+\newblock Vchar: Variance-driven complex human activity recognition framework
+  with generative representation, November 2024.
+\newblock Under submission.
+
+\bibitem{2007_10.1145/1317103.1317112}
+{\sc Tavakoli, A., Dutta, P., Jeong, J., Kim, S., Ortiz, J., Culler, D., Levis,
+  P., and Shenker, S.}
+\newblock A modular sensornet architecture: Past, present, and future
+  directions.
+\newblock {\em SIGBED Rev. 4}, 3 (July 2007), 49–54.
+
+\bibitem{2024_Walter}
+{\sc Walter, H., Portalatin-Mendez, E., Grimalovsky, M., Smith, B., Laird, J.,
+  and Ortiz, J.}
+\newblock Enhancing urban data analysis through large language models: A case
+  study with nyc 311 service requests.
+\newblock In {\em Proceedings of the Workshop on Human – Large Language Model
+  Interaction, HRI 2024\/} (2024).
+
+\bibitem{2017_7953300}
+{\sc {Wang}, S., and {Ortiz}, J.}
+\newblock Non-negative matrix factorization of signals with overlapping events
+  for event detection applications.
+\newblock In {\em 2017 IEEE International Conference on Acoustics, Speech and
+  Signal Processing (ICASSP)\/} (2017), pp.~5960--5964.
+
+\bibitem{2021_buildsys_poster_privacy_challenge}
+{\sc Wu, T., Aldeer, M., Chowdhury, T., Haynes, A., Nikseresht, F.,
+  Varnosfaderani, M.~P., Gao, J., Heydarian, A., Campbell, B., and Ortiz, J.}
+\newblock The smart building privacy challenge.
+\newblock In {\em Proceedings of the 8th ACM International Conference on
+  Systems for Energy-Efficient Buildings, Cities, and Transportation\/} (New
+  York, NY, USA, 2021), BuildSys '21, Association for Computing Machinery,
+  p.~238–239.
+
+\bibitem{2021_ortiz_inagt_multisensor}
+{\sc Wu, T., Martelaro, N., Stent, S., Ortiz, J., and Ju, W.}
+\newblock Learning when agents can talk to drivers using the inagt dataset and
+  multisensor fusion.
+\newblock {\em Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 5}, 3
+  (Sept. 2021).
+
+\bibitem{2019_10.1145/3360322.3361011}
+{\sc Wu, T., and Ortiz, J.}
+\newblock Towards adaptive anomaly detection in buildings with deep
+  reinforcement learning.
+\newblock In {\em Proceedings of the 6th ACM International Conference on
+  Systems for Energy-Efficient Buildings, Cities, and Transportation\/} (New
+  York, NY, USA, 2019), BuildSys '19, Association for Computing Machinery,
+  p.~380–382.
+
+\bibitem{2021_wu2021rlad}
+{\sc Wu, T., and Ortiz, J.}
+\newblock Rlad: Time series anomaly detection through reinforcement learning
+  and active learning.
+\newblock In {\em 2021 7th SIGKIDD Workshop on Mining and Learning from Time
+  Series (MILETS)\/} (2021).
+
+\bibitem{2023_10.1145/3583120.3589836}
+{\sc Wu, T., Pargoo, N.~S., and Ortiz, J.}
+\newblock Poster abstract: Multi-sensor fusion for in-cabin vehicular sensing
+  applications.
+\newblock In {\em Proceedings of the 22nd International Conference on
+  Information Processing in Sensor Networks\/} (New York, NY, USA, 2023), IPSN
+  '23, Association for Computing Machinery, p.~332–333.
+
+\bibitem{2022_drive_interaction}
+{\sc Wu, T., Sachdeva, E., Akash, K., Wu, X., Misu, T., and Ortiz, J.}
+\newblock Toward an adaptive situational awareness support system for urban
+  driving.
+\newblock In {\em 2022 IEEE Intelligent Vehicles Symposium (IV)\/} (2022),
+  pp.~1073--1080.
+
+\end{thebibliography}

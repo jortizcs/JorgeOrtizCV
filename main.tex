@@ -1,0 +1,240 @@
+\documentclass[12pt]{article}
+
+%% Define some new colors
+\usepackage{xcolor}
+\definecolor{mBlue}{RGB}{51, 77, 167}
+\newcommand{\blue}[1]{{\color{mBlue}#1}}
+
+%% Page and text formatting
+\usepackage[left=1.0in, right=1.0in, top=1.0in, bottom=1.0in]{geometry} % margins
+\usepackage{setspace}
+\singlespacing % No more than 6 lines of text per inch
+\usepackage{amsmath, amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{lastpage}
+
+%% Make the sections start with (a), (b), etc.
+\renewcommand\thesection{(\alph{section})}
+\renewcommand\thesubsection{(\alph{subsection})}
+
+%% Set up footer
+\usepackage{fancyhdr}
+\fancypagestyle{CVfooter}
+{
+ \lhead{}
+ \chead{}
+ \rhead{}
+ \lfoot{\small{Jorge J.\ Ortiz}}
+ \cfoot{\small{\today}}
+ \rfoot{\small{\thepage/\pageref{LastPage}}}
+ \renewcommand{\headrulewidth}{0.0pt}
+ \renewcommand{\footrulewidth}{0.5pt}
+}
+
+%% Set up hyperlinks
+\usepackage[linktoc=page,colorlinks=true]{hyperref}
+\hypersetup{
+  urlcolor = mBlue,
+  citecolor = mBlue,
+  linkcolor = mBlue,
+}
+
+%% Set up citations and bibliography
+\usepackage{bibunits}
+\usepackage[sort&compress,super]{natbib}
+\defaultbibliographystyle{apsrev4-2}
+\setcitestyle{comma}
+\setlength{\bibsep}{0pt}
+\renewcommand{\bibnumfmt}[1]{\ \ \ #1.}
+\renewcommand\refname{\vspace{-7mm}}
+
+%% This allows us to start a bibliography with arbitrary number
+\usepackage{etoolbox}
+\makeatletter
+\newcommand*{\newbibstartnumber}[1]{%
+  \apptocmd{\thebibliography}{%
+    \global\c@NAT@ctr #1\relax
+    \addtocounter{NAT@ctr}{-1}%
+  }{}{}%
+}
+\makeatother
+
+%% Reduce whitespace around lists (globally)
+\usepackage{enumitem}
+\setlist[itemize]{nosep,left=0pt}
+\setlist[enumerate]{nosep}
+\setlist[description]{nosep}
+
+%% Formatting for sections
+\usepackage[compact]{titlesec}
+\titleformat*{\section}{\normalsize\bfseries}
+\titlespacing*{\section}{0mm}{2mm}{1mm}[0mm] % left top bottom right
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titlespacing*{\subsection}{0mm}{2mm}{1mm}[0mm]
+\titleformat*{\subsubsection}{\normalsize\bfseries\itshape}
+\titlespacing*{\subsubsection}{0mm}{1mm}{0mm}[0mm]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Load bibentry after hyperref to avoid conflicts
+\usepackage{bibentry}
+\nobibliography*
+
+
+% hanging publications: 1st line starts at beginning of line, 
+% further lines are placed a bit to the right
+\usepackage{hanging}
+\newcommand\publication[1]{%
+	\smallskip\par\hangpara{1.5em}{1}\bibentry{#1}\smallskip
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+\begin{document}
+\pagestyle{CVfooter}
+
+\noindent \textbf{\uppercase{curriculum vitae}}
+\vspace{2mm}
+
+\noindent \textbf{Jorge J.\ Ortiz}
+\vspace{1mm}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+Associate Professor (with Tenure)\\ Electrical and Computer Engineering & Email: \href{mailto:jortiz@alum.mit.edu}{jortiz@alum.mit.edu} \\
+Rutgers University & Web: \href{http://jorgeortizphd.info}{http://jorgeortizphd.info} \\
+94 Brett Road, & Phone: 617-784-6550 \\
+Piscataway, NJ 08854-8058 &  \\
+\hline
+\end{tabular*}
+
+\section{Education \& Training}
+
+\begin{tabular}{l l l l}
+University of California & Berkeley, CA & Computer Science & Ph.D., 2013 \\
+University of California & Berkeley, CA & Computer Science & M.S., 2010 \\
+M.I.T. & Cambridge, MA & Computer Science & B.S., 2003 \\
+\end{tabular}
+
+\section{Academic Appointments}
+
+\begin{tabular}{l l}
+Sept. 2025 -- present & Associate Professor, Rutgers University \\
+Sept. 2018 -- 2025 & Assistant Professor, Rutgers University \\
+\end{tabular}
+
+\section{Research Leadership}
+
+\begin{tabular}{l l}
+Sept. 2018 -- present & Director, Sensing and Reasoning (SnR) Lab, Rutgers University \\
+\end{tabular}
+
+\section{Industry Experience}
+
+\begin{tabular}{l l}
+Dec. 2019 -- present & AI and Computer Vision Lead Baseball Ops., New York Yankees \\
+Dec. 2013 -- Aug. 2018 & Research Staff Member, IBM Research \\
+Jan. 2013 -- Sept. 2013 & Senior Software Engineer, Spire Global \\
+Aug. 2003 -- Feb. 2007 & Software Engineer, Oracle Corp. \\
+\end{tabular}
+
+\section{Honors and Invited Talks}
+\begin{itemize}
+    \item Invited Panelist at the JPMC Hispanic Heritage Month Celebration Panel on The Impact of Latinos and Technology, October 2, 2024, New York, NY.
+    \item Invited Panelist at the Sports and AI Symposium, Columbia University, September 2024.
+    \item Invited speaker at I-SENSE Distinguished Seminar Series, Florida Atlantic University, April 2024: \emph{Multimodal Learning and Sense-Making in Deeply Sensed Environments}
+    \item Invited speaker at Samsara IoT Speaker Series, March 2024: \emph{Multimodal Learning: Application-Driven Design and Fundamentals}
+    \item Invited speaker at HCII Seminar Series, Carnegie Mellon University, November 2023: \emph{Advancing Human-Machine Interactions: Multimodal Learning in Densely Sensed Spaces}
+    \item Invited speaker at New Jersey Institute of Technology (NJIT) Computer Science Colloquium, November 2021
+    \item Invited speaker at University of Massachusetts at Amherst (UMass Amherst) ECE Colloquium, October 2020
+    \item Invited speaker at University of Southern California (USC), CPS-IoT Webinar, October 2020
+    \item Invited speaker at Morris Meister Lecture Series, Bronx Science Foundation, Alumni Day, 2019
+    \item Invited speaker at NSF Workshop on the Dynamic Interaction of Embodied Human and Machine Intelligence, May 2019
+    \item Invited speaker ECE Seminar at Emory University, February 2019
+    \item {\bf Keynote Speaker}: Workshop on Smart and Connected Indoor Environments \emph{in conjunction with IEEE International Conference on Sensing, Communication and Networking (SECON 2017)}
+    \item Qualcomm Innovation Fellowship Finalist 2011
+    \item NSF Graduate Fellowship Honorable Mention 2008
+    \item Ford Foundation Diversity Fellowship Honorable Mention 2008
+\end{itemize}
+
+\section{Grants and Funding}
+\begin{itemize}
+    \item National Science Foundation Grant: ReDDDoT Phase 2: Leveraging Urban AI as a Communal Tool for Connection and Exchange in Harlem. Co-Principal Investigator: Jorge Ortiz (\$1,447,662).
+    \item University Research Council Award: Toward next-generation ``intelligent'' pharmaceutical drug product manufacturing for efficient patient healthcare, Rutgers University. Co-Investigator: Jorge Ortiz (\$25,000)
+    \item NIH Grant for Developing the Context-Aware Multimodal Ecological Research and Assessment (CAMERA) Platform, National Institute of Mental Health. Co-Investigator: Jorge Ortiz (\$1,079,407)
+    \item NSF Engineering Research Center: The Center for Smart Streetscapes, National Science Foundation. Rutgers Site PI Jorge Ortiz (\$2.3M Rutgers). \$26,000,000.
+    \item IUCRC Planning Grant Rutgers University: Center for Standards and Ethics in Artificial Intelligence (CSEAI), National Science Foundation Award Abstract \#2137245. PI Jorge Ortiz. \$20,000.
+    \item Social Intelligence in the Automobile, Nissan Corporation. PI Jorge Ortiz. \$10,000.
+    \item SII Planning: ARIES: Center for Agile, RelIablE, Scalable Spectrum, National Science Foundation. PI: Narayan Mandayam. Co-PI Jorge Ortiz (25\% effort). \$50,000.
+\end{itemize}
+
+
+\section{Past Ph.D. Students}
+\begin{itemize}
+    \item Tahiya Chowdhury. Data-Driven Techniques for Human Activity Sensing in Smart Environments. 08/2022.
+    \item Murtadha Aldeer. Sensing and Machine Learning Techniques for Human Behavior Understanding through Physical Interaction. 05/2023.
+    \item Tong Wu. Novel Methods for Predicting Timing and Attention in Human-agent Interaction through Application-driven Scenarios. 05/2023.
+\end{itemize}
+
+
+
+\section{Publications}
+\input{pubs}
+
+\newpage
+\section{Service}
+\begin{enumerate}
+    \item Judge, Newsweek AI Impact Awards 2025 (\href{https://events.newsweek.com/aiimpact-us/awards-us-2025}{https://events.newsweek.com/aiimpact-us/awards-us-2025})
+    \item Instructor, Electrical and Computer Engineering Component, Rutgers Honors Engineering Experience (RHEx) Summer Program 2025
+    \item TPC Member ACM MobiHoc 2025
+    \item TPC Member Sensys 2025
+    \item TPC Member Buildsys 2025
+    \item Reviewer LatinX in AI Supercomputing Network Cohort II (LXAISN) 2025
+    \item TPC Member ICLR 2025
+    \item Steering Committee Chair BuildSys 2024-2025
+    \item IPSN Poster co-Chair 2023
+    \item General Chair Buildsys 2022
+    \item Chair for Workshop on Cyber-Physical-Human Systems (CPHS) at CPS Week 2022
+    \item NeurIPS 2021 Workshop on The Symbiosis of Deep Learning and Differential Equations (DLDE), Organizer
+    \item AAAI-22 Undergraduate Consortium -- Mentorship Coordinator Chair
+    \item TPC The First International Workshop on Cyber-Physical-Human System Design and Implementation at CPS Week 2021
+    \item EWSN 2021 Poster Co-Chair
+    \item Buildsys 2020 TPC Co-Chair, Steering Committee 2021, TPC 2021, Poster Chair 2021
+    \item AAAI-21 Undergraduate Consortium -- Faculty Mentor
+    \item AAAI-20 Undergraduate Consortium -- Faculty Mentor
+    \item LatinX in AI Mentor 2020
+    % \item New York Scientific Data Summit (NYSDS) 2020 Co-Chair
+    \item Co-Chair N2Women at Sensys 2019
+    \item Co-Chair Workshop on Combining Physical and Data-Driven Knowledge in Ubiquitous Computing at UBICOMP 2019
+    \item CPS-IoT Week 2019 Publication Chair (HSCC, ICCPS, IPSN, RTAS, IoTDI)
+    \item Richard Tapia Celebration in Diversity in Computing Poster Co-Chair 2018, Chair 2019
+    \item TPC Member Latinos in Artificial Intelligence Workshop NeurIPS 2018, ICML 2019
+    \item TPC Member Energy Data and Analytics Workshop at e-Energy 2018, 2019
+    \item TPC Member Sensys 2016 (Demo Session), Organizing Committee 2020
+    \item TPC Member IPSN 2014, 2017, 2019, 2020, 2021
+    \item TPC Member Buildsys 2016, 2017, 2018, 2019, 2020
+    \item Organizing Committee Sensys/Buildsys 2016, 2017, 2020
+    \item The 26th International Conference on Computer Communication and Networks (ICCCN 2017)
+    \item TPC Member 1st Workshop on Smart and Connected Indoor Environments (SCIE) in conjunction with IEEE International Conference on Sensing, Communication and Networking (SECON 2017)
+    \item TPC Member 1st Workshop on Internet of Thing Physical Data Analytics (IoTPDA) in conjunction with IEEE International Conference on Sensing, Communication and Networking (SECON 2016)
+    \item TPC Member DCOSS 2016 (The annual International Conference on
+    Distributed Computing in Sensor Systems)
+    \item TPC Member ALGOSENSORS 2017 
+    \item TPC IEEE workshop on Big Data Management for the Internet of Things (BIOT2017)
+    \item Member of CSGSA Faculty Candidate Evaluation Committee, UCB Computer Science Div. (2008, 2009, 2010)
+    \item President of CSGSA Faculty Candidate Evaluation Committee, UCB Computer Science Div. (2011)
+    \item Chair, Internet of Things Professional Interest Community (IoT-PIC) IBM Research at Watson Labs.
+\end{enumerate}
+
+
+
+\end{document}
+

@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: bu.aux
+The style file: acm.bst
+Database file #1: 10_workshops.bib
+Database file #2: 11_conf-journ.bib
+Database file #3: 12_publications.bib
+Database file #4: 20_under-submission.bib
+Warning--I'm ignoring ortiz2024sass's extra "note" field
+--line 23 of file 20_under-submission.bib
+Warning--I'm ignoring sun2024vchar's extra "note" field
+--line 36 of file 20_under-submission.bib
+Database file #5: 30_patents.bib
+Warning--empty booktitle in 2022_chowdhury_cadence
+You've used 85 entries,
+            2253 wiz_defined-function locations,
+            995 strings with 25448 characters,
+and the built_in function-call counts, 38917 in all, are:
+= -- 3505
+> -- 2467
+< -- 3
++ -- 1012
+- -- 916
+* -- 2995
+:= -- 6011
+add.period$ -- 254
+call.type$ -- 85
+change.case$ -- 708
+chr.to.int$ -- 0
+cite$ -- 86
+duplicate$ -- 1726
+empty$ -- 2701
+format.name$ -- 916
+if$ -- 8322
+int.to.chr$ -- 0
+int.to.str$ -- 85
+missing$ -- 76
+newline$ -- 427
+num.names$ -- 174
+pop$ -- 918
+preamble$ -- 1
+purify$ -- 625
+quote$ -- 0
+skip$ -- 1294
+stack$ -- 0
+substring$ -- 1362
+swap$ -- 688
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 338
+warning$ -- 1
+while$ -- 239
+width$ -- 87
+write$ -- 892
+(There were 3 warnings)
