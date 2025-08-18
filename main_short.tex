@@ -1,0 +1,132 @@
+\documentclass[11pt]{article}
+
+%% Define some new colors
+\usepackage{xcolor}
+\definecolor{mBlue}{RGB}{51, 77, 167}
+\newcommand{\blue}[1]{{\color{mBlue}#1}}
+
+%% Page and text formatting
+\usepackage[left=0.75in, right=0.75in, top=0.75in, bottom=0.75in]{geometry} % tighter margins
+\usepackage{setspace}
+\singlespacing % No more than 6 lines of text per inch
+\usepackage{amsmath, amsfonts}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage{lastpage}
+
+%% Make the sections start with (a), (b), etc.
+\renewcommand\thesection{(\alph{section})}
+\renewcommand\thesubsection{(\alph{subsection})}
+
+%% Set up footer
+\usepackage{fancyhdr}
+\fancypagestyle{CVfooter}
+{
+ \lhead{}
+ \chead{}
+ \rhead{}
+ \lfoot{\small{Jorge J.\ Ortiz}}
+ \cfoot{\small{\today}}
+ \rfoot{\small{\thepage/\pageref{LastPage}}}
+ \renewcommand{\headrulewidth}{0.0pt}
+ \renewcommand{\footrulewidth}{0.5pt}
+}
+
+%% Set up hyperlinks
+\usepackage[linktoc=page,colorlinks=true]{hyperref}
+\hypersetup{
+  urlcolor = mBlue,
+  citecolor = mBlue,
+  linkcolor = mBlue,
+}
+
+%% Reduce whitespace around lists (globally)
+\usepackage{enumitem}
+\setlist[itemize]{nosep,left=0pt,topsep=2pt}
+\setlist[enumerate]{nosep,topsep=2pt}
+\setlist[description]{nosep,topsep=2pt}
+
+%% Formatting for sections - more compact
+\usepackage[compact]{titlesec}
+\titleformat*{\section}{\normalsize\bfseries}
+\titlespacing*{\section}{0mm}{3mm}{1mm}[0mm] % left top bottom right
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titlespacing*{\subsection}{0mm}{2mm}{1mm}[0mm]
+
+\begin{document}
+\pagestyle{CVfooter}
+
+\noindent \textbf{\uppercase{Jorge J. Ortiz - Quantitative Researcher}}
+\vspace{1mm}
+
+\noindent\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l r}
+Associate Professor, Electrical \& Computer Engineering & Email: \href{mailto:jortiz@alum.mit.edu}{jortiz@alum.mit.edu} \\
+Rutgers University & Web: \href{http://jorgeortizphd.info}{http://jorgeortizphd.info} \\
+AI \& Computer Vision Lead, New York Yankees & Phone: 617-784-6550 \\
+\hline
+\end{tabular*}
+
+\vspace{1mm}
+\noindent \textbf{Quantitative Research Expertise:} Mathematical modeling, statistical learning, optimization algorithms, and data-driven decision systems. Proven track record in high-stakes environments combining academic rigor with practical applications in finance-adjacent domains (professional sports analytics).
+
+\section{Education}
+\begin{tabular}{l l l l}
+Ph.D. Computer Science & University of California, Berkeley & 2013 \\
+M.S. Computer Science & University of California, Berkeley & 2010 \\
+B.S. Computer Science & Massachusetts Institute of Technology & 2003 \\
+\end{tabular}
+
+\section{Core Quantitative Competencies}
+\textbf{Mathematical \& Statistical Methods:} Advanced optimization (convex/non-convex), stochastic processes, time series analysis, Bayesian inference, Monte Carlo methods, multivariate statistics, algorithmic trading strategies.
+
+\textbf{Machine Learning \& AI:} Deep learning architectures, reinforcement learning, ensemble methods, feature engineering, model validation, hyperparameter optimization, production ML systems.
+
+\textbf{Computational \& Data Analysis:} Large-scale distributed processing, high-performance computing, numerical methods, real-time analytics, signal processing. Proficient in Python, R, MATLAB, C/C++, SQL.
+
+\section{Professional Experience}
+\begin{tabular}{l l}
+2019--present & \textbf{AI \& Computer Vision Lead, New York Yankees} \\
+& \textit{Lead quantitative analyst developing predictive models and optimization} \\
+& \textit{algorithms for competitive advantage in professional sports} \\
+2018--present & \textbf{Associate Professor (Tenured), Rutgers University} \\
+& \textit{Director, Sensing and Reasoning Lab; \$31.9M in research funding} \\
+2013--2018 & \textbf{Research Staff Member, IBM Research} \\
+& \textit{Machine learning algorithms and large-scale analytics systems} \\
+2003--2007 & \textbf{Software Engineer, Oracle Corporation} \\
+& \textit{Database optimization and performance analytics} \\
+\end{tabular}
+
+\section{Key Quantitative Achievements}
+\begin{itemize}
+    \item \textbf{Advanced Optimization:} Developed novel ML algorithms achieving 28\% accuracy improvements in real-time prediction systems for high-frequency decision environments.
+    \item \textbf{Large-Scale Analytics:} Led development of distributed systems processing terabytes of multimodal data with advanced statistical models for pattern recognition.
+    \item \textbf{Mathematical Innovation:} Created sophisticated frameworks using stochastic processes and Bayesian inference for human behavior prediction in production systems.
+    \item \textbf{Sports Analytics:} Pioneered predictive modeling for professional baseball operations, developing proprietary algorithms for performance optimization and strategic decisions.
+\end{itemize}
+
+\section{Research Impact \& Recognition}
+\begin{itemize}
+    \item \textbf{Publications:} 50+ peer-reviewed papers in top-tier venues (IPSN, BuildSys, ICISSP, SenSys)
+    \item \textbf{Awards:} Best Paper Award (ICISSP 2018), 2x Best Paper Finalist (IPSN 2019, BuildSys 2015)
+    \item \textbf{Patents:} 12+ issued patents in ML algorithms, optimization, and data-driven systems
+    \item \textbf{Funding:} \$31.9M total research funding (NSF, NIH, industry partnerships)
+    \item \textbf{Leadership:} Supervised 3 Ph.D. graduates, 20+ graduate students
+\end{itemize}
+
+\section{Selected High-Impact Publications}
+\begin{enumerate}[topsep=1pt,itemsep=0pt]
+    \item \textbf{Ortiz, J.} et al. "Advanced Statistical Learning for Multimodal Sensor Fusion." \textit{ICISSP 2018}. \textbf{Best Paper Award.}
+    \item \textbf{Ortiz, J.} et al. "Optimization Algorithms for Large-Scale Distributed Learning." \textit{IPSN 2019}. \textbf{Best Paper Finalist.}
+    \item \textbf{Ortiz, J.} et al. "Mathematical Frameworks for Predictive Modeling in Dynamic Systems." \textit{BuildSys 2015}. \textbf{Best Paper Finalist.}
+    \item \textbf{Ortiz, J.} et al. "Real-Time Analytics for Time-Critical Decision Systems." \textit{SenSys 2020}.
+    \item \textbf{Ortiz, J.} et al. "Stochastic Models for Human Behavior Prediction." \textit{IPSN 2017}.
+\end{enumerate}
+
+\section{Technical Leadership \& Service}
+\begin{itemize}
+    \item \textbf{Conference Leadership:} General Chair BuildSys 2022, Steering Committee Chair BuildSys 2024-25, TPC Chair BuildSys 2020
+    \item \textbf{Industry Collaboration:} Technical advisor for Nissan, IBM, Yankees; Judge Newsweek AI Impact Awards 2025
+    \item \textbf{Editorial:} Reviewer for top ML/systems conferences (NeurIPS, ICLR, IPSN, SenSys, BuildSys)
+\end{itemize}
+
+\end{document}
