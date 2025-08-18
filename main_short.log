@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.15)  18 AUG 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.15)  18 AUG 2025 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,15 +435,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-01.
+05.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}] [2]
+al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+Overfull \hbox (14.91762pt too wide) in paragraph at lines 124--125
+[]\T1/ptm/b/n/10.95 NIH Grant: \T1/ptm/m/n/10.95 Context-Aware Mul-ti-modal Eco
+-log-i-cal Re-search and As-sess-ment (CAM-ERA) Plat-form. Co-Investigator
+ []
 
+[2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main_short.aux)
  ***********
@@ -452,29 +457,32 @@ L3 programming layer <2024-02-20>
  ***********
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package rerunfilecheck Warning: File `main_short.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main_short.out':
-(rerunfilecheck)             Before: AFEC4419EB1CAFF9E74D8B6A61313384;1261
-(rerunfilecheck)             After:  CFCCAC1478434C5476B9A82CD08C1DB2;1226.
+(rerunfilecheck)             Before: 7538878BC932D5DC2345CBA47A42DF59;1836
+(rerunfilecheck)             After:  42135E088305F63EC53FCC7C7FACC6AB;2096.
  ) 
 Here is how much of TeX's memory you used:
- 10934 strings out of 474116
- 166704 string characters out of 5743682
- 1946187 words of memory out of 5000000
- 33145 multiletter control sequences out of 15000+600000
+ 10941 strings out of 474116
+ 166776 string characters out of 5743682
+ 1945187 words of memory out of 5000000
+ 33148 multiletter control sequences out of 15000+600000
  574895 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,362b,566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_short.pdf (2 pages, 55010 bytes).
+Output written on main_short.pdf (2 pages, 56758 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
