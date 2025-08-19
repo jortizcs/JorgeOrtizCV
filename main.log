@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.15)  18 AUG 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.15)  19 AUG 2025 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,10 +480,11 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [2] (./pubs.tex
+) [2] [3]
+(./pubs.tex
 \openout3 = `bu.aux'.
 
-(./main.bbl) [3] [4] [5] [6]
+ (./main.bbl) [4] [5] [6]
 Overfull \hbox (16.23453pt too wide) in paragraph at lines 80--81
 [][]\T1/ptm/m/sc/12 Wu, T., Aldeer, M., Chowd-hury, T., Haynes, A., Nikseresht,
  F., Varnos-faderani,
@@ -537,7 +538,7 @@ Overfull \hbox (3.04688pt too wide) in paragraph at lines 142--143
  []
 
 ) [11]
-Overfull \hbox (7.07062pt too wide) in paragraph at lines 240--241
+Overfull \hbox (7.07062pt too wide) in paragraph at lines 242--243
 []\T1/ptm/m/n/12 Judge, Newsweek AI Im-pact Awards 2025 ([][]https://events.new
 sweek.com/aiimpact-us/awards-
  []
@@ -556,8 +557,8 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 4FB6C71FAE5DAA8F9B6D69A606CED5B9;2149
-(rerunfilecheck)             After:  3163BA0A2DC4FEB414FA25733C21E4D6;1983.
+(rerunfilecheck)             Before: 3163BA0A2DC4FEB414FA25733C21E4D6;1983
+(rerunfilecheck)             After:  FF06F73C6C42B9D1B1042B689009920C;1983.
  ) 
 Here is how much of TeX's memory you used:
  12122 strings out of 474116
@@ -566,12 +567,12 @@ Here is how much of TeX's memory you used:
  34069 multiletter control sequences out of 15000+600000
  586012 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,411b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,411b,605s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (13 pages, 117729 bytes).
+Output written on main.pdf (13 pages, 117915 bytes).
 PDF statistics:
  414 PDF objects out of 1000 (max. 8388607)
  387 compressed objects within 4 object streams
