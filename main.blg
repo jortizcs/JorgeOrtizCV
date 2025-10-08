@@ -13,45 +13,45 @@ Warning--I'm ignoring sun2024vchar's extra "note" field
 --line 36 of file 20_under-submission.bib
 Database file #5: 30_patents.bib
 Warning--empty booktitle in 2022_chowdhury_cadence
-You've used 85 entries,
+You've used 88 entries,
             2253 wiz_defined-function locations,
-            995 strings with 25448 characters,
-and the built_in function-call counts, 38917 in all, are:
-= -- 3505
-> -- 2467
+            1008 strings with 26020 characters,
+and the built_in function-call counts, 39766 in all, are:
+= -- 3573
+> -- 2508
 < -- 3
-+ -- 1012
-- -- 916
-* -- 2995
-:= -- 6011
-add.period$ -- 254
-call.type$ -- 85
-change.case$ -- 708
++ -- 1029
+- -- 930
+* -- 3052
+:= -- 6146
+add.period$ -- 263
+call.type$ -- 88
+change.case$ -- 724
 chr.to.int$ -- 0
-cite$ -- 86
-duplicate$ -- 1726
-empty$ -- 2701
-format.name$ -- 916
-if$ -- 8322
+cite$ -- 89
+duplicate$ -- 1774
+empty$ -- 2788
+format.name$ -- 930
+if$ -- 8501
 int.to.chr$ -- 0
-int.to.str$ -- 85
-missing$ -- 76
-newline$ -- 427
-num.names$ -- 174
-pop$ -- 918
+int.to.str$ -- 88
+missing$ -- 79
+newline$ -- 442
+num.names$ -- 180
+pop$ -- 949
 preamble$ -- 1
-purify$ -- 625
+purify$ -- 638
 quote$ -- 0
-skip$ -- 1294
+skip$ -- 1312
 stack$ -- 0
-substring$ -- 1362
-swap$ -- 688
+substring$ -- 1377
+swap$ -- 694
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 338
+type$ -- 350
 warning$ -- 1
-while$ -- 239
-width$ -- 87
-write$ -- 892
+while$ -- 245
+width$ -- 90
+write$ -- 919
 (There were 3 warnings)

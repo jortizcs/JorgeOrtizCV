@@ -410,6 +410,13 @@
 \newblock Time series segmentation through automatic feature learning.
 \newblock {\em ArXiv abs/1801.05394\/} (2018).
 
+\bibitem{2025_li_tellme}
+{\sc Li, Q., and Ortiz, J.}
+\newblock tellme why (ain't nothing but a near-miss): Towards causal discovery
+  from urban video.
+\newblock In {\em NeurIPS 2025 Workshop on UrbanAI: Harnessing Artificial
+  Intelligence for Smart Cities\/} (2025).
+
 \bibitem{2013_Msdas}
 {\sc Maasoumy, M., \textbf{Jorge Ortiz}, Culler, D., and
   Sangiovanni-Vincentelli, A.}
@@ -532,6 +539,13 @@
 \newblock In {\em Proc. Int. Conf. Mach. Learn. Res.(PMLR)\/} (2022),
   pp.~1--10.
 
+\bibitem{sun2025dfgauss}
+{\sc Sun, Y., Contreras, J., and Ortiz, J.}
+\newblock Dfgauss: Dynamic focused masking for autoregressive 3d occupancy
+  prediction.
+\newblock In {\em Advances in Neural Information Processing Systems
+  (NeurIPS)\/} (December 2025).
+
 \bibitem{sun2024vchar}
 {\sc Sun, Y., Pargoo, N.~S., Ehsan, T., Zhang, Z., and Ortiz, J.}
 \newblock Vchar: Variance-driven complex human activity recognition framework
@@ -606,5 +620,11 @@
   driving.
 \newblock In {\em 2022 IEEE Intelligent Vehicles Symposium (IV)\/} (2022),
   pp.~1073--1080.
+
+\bibitem{2025_xia_policygrid}
+{\sc Xia, S., and Ortiz, J.}
+\newblock Policygrid: Acting to understand, understanding to act.
+\newblock In {\em NeurIPS 2025 Workshop on Embodied World Models for Decision
+  Making\/} (2025).
 
 \end{thebibliography}
