@@ -1,0 +1,38 @@
+# Proposal files
+proposals/
+*.proposal.md
+*_proposal.md
+iucrc_proposal.md
+redddot_proposal.md
+stairwai_proposal.md
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# LaTeX temporary files
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.backup
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
