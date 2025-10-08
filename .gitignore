@@ -21,6 +21,9 @@ stairwai_proposal.md
 *.synctex.gz(busy)
 *.pdfsync
 
+# PDF outputs
+*.pdf
+
 # LaTeX temporary files
 *.nav
 *.snm
