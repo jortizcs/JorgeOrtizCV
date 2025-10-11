@@ -23,6 +23,7 @@ stairwai_proposal.md
 
 # PDF outputs
 *.pdf
+!main.pdf
 
 # LaTeX temporary files
 *.nav
