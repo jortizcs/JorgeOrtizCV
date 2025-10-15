@@ -1,0 +1,228 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Professional packages and setup
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Colors - UN Blue palette
+\usepackage{xcolor}
+\definecolor{UNBlue}{RGB}{0, 114, 188}
+\definecolor{accentBlue}{RGB}{38, 141, 211}
+\definecolor{darkGray}{RGB}{64, 64, 64}
+\definecolor{mediumGray}{RGB}{96, 96, 96}
+\definecolor{lightGray}{RGB}{224, 224, 224}
+\definecolor{offWhite}{RGB}{248, 248, 248}
+
+% Page layout
+\usepackage[letterpaper, margin=0.65in, top=0.5in, bottom=0.6in]{geometry}
+\usepackage{setspace}
+\setstretch{1.0}
+
+% Graphics and design
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usetikzlibrary{positioning,shapes,backgrounds}
+
+% Typography and formatting
+\usepackage[scaled=0.85]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Hyperlinks
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=UNBlue,
+    urlcolor=UNBlue,
+    citecolor=UNBlue
+}
+
+% No page numbers
+\pagestyle{empty}
+
+% Custom commands
+\newcommand{\sectionline}{\noindent\textcolor{UNBlue}{\rule{\textwidth}{1.5pt}}}
+\newcommand{\subsectionline}{\noindent\textcolor{lightGray}{\rule{\textwidth}{0.5pt}}}
+
+% Section formatting
+\titleformat{\section}
+{\Large\bfseries\color{UNBlue}}
+{}
+{0em}
+{\MakeUppercase}[\vspace{1pt}\sectionline\vspace{3pt}]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Professional entry formatting
+\newcommand{\profentry}[4]{
+    \begin{tabularx}{\textwidth}{@{}X r@{}}
+        \textbf{\color{darkGray}#1} & \textcolor{mediumGray}{\textit{#2}} \\
+        \textcolor{mediumGray}{#3} & #4
+    \end{tabularx}
+}
+
+\newcommand{\listentry}[1]{
+    \item[\textcolor{accentBlue}{\small\faAngleRight}] #1
+}
+
+% Custom lists
+\setlist[itemize]{leftmargin=12pt, itemsep=1pt, parsep=0pt, topsep=2pt}
+
+% Header command
+\newcommand{\makeheader}{
+\begin{center}
+\begin{tikzpicture}[remember picture, overlay]
+    \fill[UNBlue!8] (-0.5\paperwidth,-0.8) rectangle (0.5\paperwidth,1.2);
+\end{tikzpicture}
+\vspace{3pt}
+{\fontsize{26}{30}\selectfont\bfseries\color{UNBlue}JORGE J. ORTIZ}\\[2pt]
+{\Large\color{darkGray}Associate Professor (with Tenure)}\\[1pt]
+{\large\color{mediumGray}AI Research Leader \textbullet\ Ethics \& Governance Expert}\\[1pt]
+{\large\bfseries\color{darkGray}Rutgers University}\\[4pt]
+
+\begin{tikzpicture}
+\node[fill=UNBlue!10, rounded corners=12pt, inner sep=6pt] {
+\begin{tabular}{c@{\hspace{12pt}}c@{\hspace{12pt}}c}
+\faEnvelope\ \href{mailto:jorge.ortiz@rutgers.edu}{\color{UNBlue}{jorge.ortiz@rutgers.edu}} &
+\faGlobe\ \href{http://jorgeortizphd.info}{\color{UNBlue}{jorgeortizphd.info}} &
+\faPhone\ \color{darkGray}{617-784-6550}
+\end{tabular}
+};
+\end{tikzpicture}
+\end{center}
+\vspace{2pt}
+}
+
+\begin{document}
+
+\makeheader
+
+\section{Qualifications Summary}
+\begin{center}
+\begin{tikzpicture}
+\node[fill=offWhite, rounded corners=8pt, inner sep=10pt, text width=\textwidth-20pt, align=justify] {
+Associate Professor integrating AI research and policy through evidence-based scientific assessments, engaging global partners in aligning technical evidence with emerging AI governance frameworks. Leading U.S. NSF-funded Center for Responsible AI and Governance (CRAIG) developing frameworks to distinguish AI capabilities from hype while ensuring safe deployment. Technical expertise spans multimodal AI systems, computer vision, human-centered design, AI safety, fairness, and robustness across non-military domains (healthcare, urban systems, climate, privacy). Principal investigator on \$32.4M research portfolio emphasizing measurable outcomes in inclusive AI deployment and equitable access across diverse communities. Chairs international committees spanning 30+ countries (ACM BuildSys, SIGEnergy). Published 40+ peer-reviewed papers in leading AI venues (NeurIPS, ICML) and interdisciplinary journals, with multiple best paper awards for rigorous technical contributions. Actively contributes to international dialogues on AI standards and governance within multilateral and scientific communities.
+};
+\end{tikzpicture}
+\end{center}
+
+\section{Education}
+\profentry{Ph.D., Computer Science}{2013}{University of California, Berkeley}{}\\[2pt]
+\profentry{M.S., Computer Science}{2010}{University of California, Berkeley}{}\\[2pt]
+\profentry{B.S., Computer Science}{2003}{Massachusetts Institute of Technology}{}
+
+\section{Bridging AI Research \& Policy}
+\begin{itemize}
+\listentry{\textbf{\color{UNBlue}Principal Investigator}, U.S. NSF IUCRC: Center for Responsible AI and Governance (CRAIG), \$1.5M (2027-2029) -- Multi-stakeholder framework bringing together industry, academia, and government to develop evidence-based AI standards informing international governance mechanisms and contribute to emerging global dialogues on AI oversight}
+\listentry{\textbf{\color{UNBlue}Principal Investigator}, NSF Planning Grant: Standards and Ethics in AI -- Convening diverse stakeholders to translate AI research into accessible frameworks for policymakers}
+\listentry{\textbf{\color{UNBlue}Co-Principal Investigator}, NSF ReDDDoT Phase 2: Urban AI in Harlem, \$1.45M -- Community-centered AI deployment engaging underserved populations, demonstrating participatory design principles for equitable AI access}
+\listentry{\textbf{\color{UNBlue}Independent Evaluator}, Newsweek AI Impact Awards 2025 -- Evaluating global AI innovations across sectors for evidence-based societal impact}
+\listentry{\textbf{\color{UNBlue}Steering Committee Chair}, ACM BuildSys (2024-2025) -- Leading international research community from diverse technological development levels across 30+ countries}
+\listentry{\textbf{\color{UNBlue}General Chair}, ACM BuildSys 2022 -- Convened researchers from 30+ countries including significant Global South participation}
+\end{itemize}
+
+\section{Academic \& Research Leadership}
+\profentry{Associate Professor (with Tenure)}{Sept. 2025 -- Present}{Rutgers University, Electrical and Computer Engineering}{}\\[2pt]
+\profentry{Director, Sensing and Reasoning (SnR) Lab}{Sept. 2018 -- Present}{Rutgers University}{}\\[2pt]
+\profentry{Assistant Professor}{Sept. 2018 -- 2025}{Rutgers University, Electrical and Computer Engineering}{}
+
+\section{Global Industry Experience}
+\profentry{AI \& Computer Vision Lead, Baseball Operations}{Dec. 2019 -- Present}{New York Yankees}{-- Applied AI for performance analytics}\\[2pt]
+\profentry{Research Staff Member}{Dec. 2013 -- Aug. 2018}{IBM Research}{-- Advanced AI/ML systems}
+
+\section{Interdisciplinary AI Expertise}
+\begin{center}
+\begin{tikzpicture}
+\node[fill=offWhite, rounded corners=8pt, inner sep=10pt, text width=\textwidth-20pt, align=center] {
+\textbf{\color{UNBlue}AI Governance \& Ethics} \textbullet\ 
+\textbf{\color{UNBlue}Multimodal Machine Learning} \textbullet\ 
+\textbf{\color{UNBlue}Computer Vision \& 3D Understanding}\\[2pt]
+\textbf{\color{UNBlue}AI Safety, Fairness \& Robustness} \textbullet\ 
+\textbf{\color{UNBlue}Human-Centered AI Design} \textbullet\ 
+\textbf{\color{UNBlue}Healthcare AI Systems}\\[2pt]
+\textbf{\color{UNBlue}Urban AI \& Climate} \textbullet\ 
+\textbf{\color{UNBlue}Privacy-Preserving AI} \textbullet\ 
+\textbf{\color{UNBlue}AI Standards \& Policy}
+};
+\end{tikzpicture}
+\end{center}
+
+\section{Evidence-Based AI Research Portfolio (\$32.4M)}
+\begin{itemize}
+\listentry{\textbf{\color{UNBlue}NSF Engineering Research Center}: Center for Smart Streetscapes (CS3), Principal Investigator at Rutgers \textbf{(\$26M)} -- Leading AI research for sustainable cities and climate adaptation}
+\listentry{\textbf{\color{UNBlue}NIH CAMERA Platform}: Multimodal Research Platform, Co-PI \textbf{(\$3.2M)} -- Healthcare AI systems addressing real-world clinical and patient needs}
+\listentry{\textbf{\color{UNBlue}NSF ReDDDoT Phase 2}: Urban AI in Harlem, Co-PI \textbf{(\$1.45M)} -- Demonstrating community-centered AI deployment with participatory design ensuring equitable access}
+\listentry{\textbf{\color{UNBlue}NSF IUCRC CRAIG}: Responsible AI and Governance, Principal Investigator at Rutgers \textbf{(\$1.5M)} -- Developing evidence-based standards bridging technical research and international governance}
+\listentry{Research spans non-military AI domains: healthcare monitoring systems, urban sustainability and climate adaptation, privacy-preserving systems, human-centered autonomous systems, and resilient infrastructure}
+\end{itemize}
+
+\section{International Leadership \& Service}
+\begin{itemize}
+\listentry{\textbf{\color{UNBlue}Conference Leadership}: Steering Committee Chair BuildSys 2024-25; General Chair BuildSys 2022 (30+ countries); Publication Chair CPS-IoT Week 2019}
+\listentry{\textbf{\color{UNBlue}Technical Program Committees}: ICLR, ACM MobiHoc, Sensys, BuildSys (2016-2025); IPSN (2014-2021)}
+\listentry{\textbf{\color{UNBlue}Workshop Organization}: NeurIPS 2021; UBICOMP 2019; N2Women at Sensys 2019}
+\listentry{\textbf{\color{UNBlue}Broadening Participation}: LatinX in AI Mentor; AAAI Undergraduate Consortium Coordinator; N2Women Co-Chair; Richard Tapia Conference Poster Chair}
+\listentry{\textbf{\color{UNBlue}Recognition}: Best Paper Awards ICISSP 2018; Multiple Best Paper Finalist recognitions (IoTDI, BuildSys)}
+\end{itemize}
+
+\section{Selected Publications (40+ Peer-Reviewed Papers)}
+
+\textbf{\color{UNBlue}Computer Vision \& 3D Understanding (NeurIPS 2025)}
+\begin{itemize}[topsep=0pt]
+\listentry{Y. Sun, J. Contreras, \textbf{J. Ortiz}, ``DFGauss: Dynamic Focused Masking for Autoregressive 3D Occupancy Prediction,'' \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2025.}
+\end{itemize}
+
+\textbf{\color{UNBlue}AI Safety \& Autonomous Systems}
+\begin{itemize}[topsep=0pt]
+\listentry{Y. Sun, N. Salami Pargoo, P. Jin, \textbf{J. Ortiz}, ``Optimizing Autonomous Driving for Safety: A Human-Centric Approach with LLM-Enhanced RLHF,'' \textit{ACM UbiComp Companion}, 2024.}
+\end{itemize}
+
+\textbf{\color{UNBlue}Healthcare AI}
+\begin{itemize}[topsep=0pt]
+\listentry{Z. Hussain et al., ``Non-Invasive Techniques for Monitoring Different Aspects of Sleep: A Comprehensive Review,'' \textit{ACM Trans. Computing for Healthcare}, 2022.}
+\end{itemize}
+
+\textbf{\color{UNBlue}AI Security \& Privacy}
+\begin{itemize}[topsep=0pt]
+\listentry{\textbf{J. Ortiz} et al., ``DeviceMien: Network Device Behavior Modeling for Identifying Unknown IoT Devices,'' \textit{ACM IoTDI}, 2019. \textbf{\color{accentBlue}[Best Paper Finalist]}}
+\end{itemize}
+
+\textbf{\color{UNBlue}Climate, Urban AI \& Ethics}
+\begin{itemize}[topsep=0pt]
+\listentry{D. Hong, H. Wang, \textbf{J. Ortiz}, K. Whitehouse, ``The Building Adapter: Quickly Applying Building Analytics at Scale,'' \textit{ACM BuildSys}, 2015. \textbf{\color{accentBlue}[Best Paper Finalist]}}
+\listentry{T. Chowdhury et al., \textbf{J. Ortiz}, ``Sensing Urban-Scale COVID-19 Policy Compliance in New York City,'' \textit{ACM BuildSys}, 2021.}
+\listentry{T. Wu et al., \textbf{J. Ortiz}, ``The Smart Building Privacy Challenge,'' \textit{ACM BuildSys}, 2021.}
+\end{itemize}
+
+
+\section{Mentoring \& Capacity Building}
+\begin{itemize}
+\listentry{\textbf{\color{UNBlue}Ph.D. Graduates}: 3 doctoral students (2022-2023) in human activity sensing, multimodal learning, IoT}
+\listentry{\textbf{\color{UNBlue}Educational Leadership}: Rutgers Honors Engineering Experience Instructor 2025; AAAI Undergraduate Consortium Coordinator}
+\listentry{\textbf{\color{UNBlue}Community Mentorship}: LatinX in AI Mentor; N2Women Co-Chair}
+\end{itemize}
+
+\section{Innovation \& Patents}
+\begin{itemize}
+\listentry{12+ issued U.S. patents in AI systems, IoT sensing, and machine learning demonstrating technology transfer from research to real-world impact in smart buildings, healthcare monitoring, and privacy-preserving AI applications}
+\end{itemize}
+
+
+\vspace{8pt}
+\begin{center}
+\textit{Committed to advancing scientifically rigorous, transparent, and globally inclusive approaches to AI development and oversight.}
+\end{center}
+
+\vspace{4pt}
+\begin{center}
+\textit{\color{mediumGray}Full curriculum vitae and publications available at \href{http://jorgeortizphd.info}{jorgeortizphd.info}}
+\end{center}
+
+\end{document}
+
