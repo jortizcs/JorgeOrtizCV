@@ -1,0 +1,192 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Professional packages and setup
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Colors - Apple-inspired subtle palette
+\usepackage{xcolor}
+\definecolor{appleGray}{RGB}{29, 29, 31}
+\definecolor{accentGray}{RGB}{86, 86, 90}
+\definecolor{lightGray}{RGB}{142, 142, 147}
+\definecolor{subtleBlue}{RGB}{0, 122, 255}
+
+% Page layout
+\usepackage[letterpaper, margin=0.7in, top=0.55in, bottom=0.55in]{geometry}
+\usepackage{setspace}
+\setstretch{1.0}
+
+% Typography and formatting
+\usepackage[scaled=0.92]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Hyperlinks
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=subtleBlue,
+    urlcolor=subtleBlue,
+    citecolor=subtleBlue
+}
+
+% No page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}
+{\large\bfseries\color{appleGray}}
+{}
+{0em}
+{}[\vspace{1pt}{\color{lightGray}\titlerule[0.8pt]}\vspace{4pt}]
+
+\titlespacing*{\section}{0pt}{8pt}{3pt}
+
+% Subsection formatting
+\titleformat{\subsection}
+{\normalsize\bfseries\color{appleGray}}
+{}
+{0em}
+{}
+
+\titlespacing*{\subsection}{0pt}{5pt}{1pt}
+
+% Custom commands
+\newcommand{\resumeentry}[4]{
+    \noindent
+    \begin{minipage}[t]{0.62\textwidth}
+        \textbf{\color{appleGray}#1}\\
+        \textcolor{accentGray}{#3}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.36\textwidth}
+        \raggedleft
+        \textcolor{accentGray}{\textit{#2}}\\
+        #4
+    \end{minipage}
+    \vspace{2pt}
+}
+
+\newcommand{\simpleentry}[2]{
+    \begin{tabularx}{\textwidth}{@{}X r@{}}
+        \textbf{\color{appleGray}#1} & \textcolor{accentGray}{#2}
+    \end{tabularx}
+    \vspace{1pt}
+}
+
+% Custom lists
+\setlist[itemize]{leftmargin=12pt, itemsep=1pt, parsep=0pt, topsep=1pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+{\fontsize{26}{30}\selectfont\bfseries\color{appleGray}JORGE J. ORTIZ}\\[3pt]
+{\large\color{accentGray}Associate Professor, Computer Science \& Engineering}\\[1pt]
+{\normalsize\color{accentGray}Machine Learning Researcher \textbullet\ Health AI \& Biosensor Systems}\\[4pt]
+
+\begin{tabular}{c@{\hspace{12pt}}c@{\hspace{12pt}}c@{\hspace{12pt}}c}
+\color{accentGray}{New Brunswick, NJ} &
+\href{mailto:jorge.ortiz@rutgers.edu}{\color{subtleBlue}{jorge.ortiz@rutgers.edu}} &
+\href{http://jorgeortizphd.info}{\color{subtleBlue}{jorgeortizphd.info}} &
+\color{accentGray}{617-784-6550}
+\end{tabular}
+\end{center}
+
+\vspace{2pt}
+
+\section*{PROFESSIONAL SUMMARY}
+
+Associate Professor with 10+ years designing causal and multimodal AI systems for health sensing. Built large-scale ML pipelines for wearable and ambient biosignals, including production models for the New York Yankees and NIH-funded mental health research processing 10M+ sensor samples weekly. Published 40+ peer-reviewed papers in premier venues (NeurIPS, CoRL, ACM BuildSys) with expertise translating research into production systems. Planning sabbatical (July 2026 -- July 2027) to contribute to Apple's AIML Health research program. Interested in advancing foundation models for health and human performance at Apple.
+
+\textbf{Available for one-year full-time residency: July 13, 2026 -- July 9, 2027}
+
+\section*{EDUCATION}
+
+\simpleentry{Ph.D., Computer Science}{University of California, Berkeley, 2013}
+\simpleentry{M.S., Computer Science}{University of California, Berkeley, 2010}
+\simpleentry{B.S., Computer Science}{Massachusetts Institute of Technology, 2003}
+
+\section*{HEALTH AI RESEARCH EXPERIENCE}
+
+\subsection*{NIH CAMERA Platform — Context-Aware Multimodal Ecological Research and Assessment}
+\textit{Principal Investigator (multi-PI), \$5.4M | NIH R61/R33MH135405} \hfill \textit{2024 -- 2029}
+\begin{itemize}
+    \item Leading development of multimodal research platform integrating neural, physiological, behavioral, and environmental sensors for continuous prediction of anxiety state and memory performance
+    \item Developing causal and multimodal machine learning models to understand brain-behavior relationships and predict mental health states; published causal inference methods in NeurIPS workshops (PolicyGrid, TellMe)
+    \item Designing novel algorithms for sensor fusion, context-aware ecological momentary assessments, and interpretable machine learning
+    \item Collaborating with clinical researchers at Columbia University to validate health biomarkers and translate findings to practice
+    \item Managing cross-functional team of engineers, neuroscientists, clinicians, and data scientists
+\end{itemize}
+
+\subsection*{PatientSense — Smart Biosensor System for Medication Monitoring}
+\textit{Principal Investigator} \hfill \textit{2018 -- 2020}
+\begin{itemize}
+    \item Developed sensor-equipped pill-bottle system using IMU biosensors (similar sensing modalities to Apple Watch) for patient identification and medication adherence monitoring
+    \item Achieved 90\%+ accuracy in discriminating individuals using inertial sensor data and machine learning
+    \item Published in ACM MobiQuitous 2019; technology applicable to remote patient monitoring and medication safety
+\end{itemize}
+
+\subsection*{Sleep Monitoring \& Health Sensing Research}
+\textit{Lead Researcher} \hfill \textit{2019 -- 2022}
+\begin{itemize}
+    \item Research on non-invasive sleep monitoring using wearable and ambient sensors; published authoritative review in ACM Transactions on Computing for Healthcare (2022)
+    \item Investigated sleep stage classification, vital signs monitoring, and sleep disorder detection
+\end{itemize}
+
+\subsection*{MedBuds — In-Ear Biosensor for Medication Detection}
+\textit{Co-Investigator} \hfill \textit{2021 -- 2022}
+\begin{itemize}
+    \item Developed medication-taking detection system using IMU sensors in wireless earbuds (similar form factor to AirPods); demonstrated feasibility of repurposing consumer audio devices for health monitoring (IEEE CPHS 2022)
+\end{itemize}
+
+\section*{ACADEMIC \& INDUSTRY EXPERIENCE}
+
+\resumeentry{Associate Professor (with Tenure)}{July 2025 -- Present}{Rutgers University, Electrical \& Computer Engineering}{}
+
+\resumeentry{Assistant Professor}{Sept. 2018 -- June 2025}{Rutgers University, Electrical \& Computer Engineering}{}
+
+\resumeentry{Director, Sensing and Reasoning Lab}{Sept. 2018 -- Present}{Rutgers University}{Director of Sensing and Reasoning Lab, supervising 20+ active researchers (Ph.D., M.S., and undergraduate).}
+
+\resumeentry{AI \& Computer Vision Lead}{Dec. 2019 -- Present}{New York Yankees, Baseball Operations}{Multimodal biomechanics analytics; causal modeling}
+
+\resumeentry{Research Staff Member}{Dec. 2013 -- Aug. 2018}{IBM Research}{IoT and ML research}
+
+\section*{TECHNICAL EXPERTISE}
+
+\textbf{Programming Languages:} Python, C++, R, Objective-C, Swift, MATLAB\\[2pt]
+\textbf{Machine Learning:} Causal ML, multimodal learning, foundation models, on-device ML, privacy-preserving modeling, computer vision, deep learning\\[2pt]
+\textbf{Health \& Biosensors:} IMU sensors, wearable devices, PPG sensing, bio-signal processing, physiological signal analysis, health biomarker development\\[2pt]
+\textbf{Software Engineering:} Large-scale ML systems, real-time sensing applications, edge computing, distributed systems\\[2pt]
+\textbf{Research Impact:} 40+ peer-reviewed publications, 12+ issued patents, multiple best paper awards
+
+\section*{SELECTED HEALTH-FOCUSED PUBLICATIONS}
+
+\begin{itemize}
+    \item Z. Hussain, Q. Z. Sheng, W. E. Zhang, \textbf{J. Ortiz}, and S. Pouriyeh, ``Non-invasive Techniques for Monitoring Different Aspects of Sleep: A Comprehensive Review,'' \textit{ACM Trans. Comput. Healthcare} 3, 2, Article 24 (April 2022), 26 pages. \href{https://doi.org/10.1145/3491245}{https://doi.org/10.1145/3491245}
+    \item M. Aldeer, D. Waterworth, et al., \textbf{J. Ortiz}, ``MedBuds: In-Ear Inertial Medication Taking Detection Using Smart Wireless Earbuds,'' \textit{IEEE CPHS}, 2022.
+    \item M. Aldeer, \textbf{J. Ortiz}, et al., ``Unobtrusive Patient Identification Using Smart Pill-Bottle Systems,'' \textit{Information Processing and Management}, 2021.
+\end{itemize}
+
+\section*{LEADERSHIP \& IMPACT}
+
+\textbf{Team Leadership:} Director of 30+ researcher lab; mentored 3 Ph.D. graduates in causal ML and wearable sensing\\[2pt]
+\textbf{Cross-Functional Delivery:} 5 years IBM Research; AI Lead NY Yankees; extensive academic-industry partnerships\\[2pt]
+\textbf{Research Impact:} Best Paper Award (ICISSP 2018); Finalist recognitions at ACM IoTDI, BuildSys
+
+\section*{RESEARCH FUNDING}
+
+\textbf{NIH CAMERA Platform}, PI (\$5.4M) — Mental health AI using multimodal sensing | \textbf{NSF ERC}, Site PI (\$26M) — Urban AI | \textbf{NSF IUCRC}, PI (\$1.5M) — Responsible AI
+
+\vspace{4pt}
+\begin{center}
+\textit{\color{accentGray}Available for AIML Residency program July 13, 2026 -- July 9, 2027 during planned sabbatical}
+\end{center}
+
+\end{document}
+
