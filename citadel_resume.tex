@@ -1,0 +1,252 @@
+\documentclass[11pt,letterpaper]{article}
+
+% Professional packages and setup
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+% Colors - Citadel-inspired professional palette
+\usepackage{xcolor}
+\definecolor{citadelBlue}{RGB}{0, 51, 102}
+\definecolor{accentBlue}{RGB}{0, 102, 204}
+\definecolor{darkGray}{RGB}{51, 51, 51}
+\definecolor{mediumGray}{RGB}{96, 96, 96}
+\definecolor{lightGray}{RGB}{220, 220, 220}
+\definecolor{offWhite}{RGB}{250, 250, 250}
+
+% Page layout
+\usepackage[letterpaper, margin=0.65in, top=0.5in, bottom=0.6in]{geometry}
+\usepackage{setspace}
+\setstretch{1.0}
+
+% Graphics and design
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{fontawesome5}
+\usetikzlibrary{positioning,shapes,backgrounds}
+
+% Typography and formatting
+\usepackage[scaled=0.85]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Hyperlinks
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=citadelBlue,
+    urlcolor=citadelBlue,
+    citecolor=citadelBlue
+}
+
+% No page numbers
+\pagestyle{empty}
+
+% Custom commands
+\newcommand{\sectionline}{\noindent\textcolor{citadelBlue}{\rule{\textwidth}{1.5pt}}}
+\newcommand{\subsectionline}{\noindent\textcolor{lightGray}{\rule{\textwidth}{0.5pt}}}
+
+% Section formatting
+\titleformat{\section}
+{\Large\bfseries\color{citadelBlue}}
+{}
+{0em}
+{\MakeUppercase}[\vspace{1pt}\sectionline\vspace{3pt}]
+
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+% Professional entry formatting
+\newcommand{\profentry}[4]{
+    \begin{tabularx}{\textwidth}{@{}X r@{}}
+        \textbf{\color{darkGray}#1} & \textcolor{mediumGray}{\textit{#2}} \\
+        \textcolor{mediumGray}{#3} & #4
+    \end{tabularx}
+}
+
+\newcommand{\listentry}[1]{
+    \item[\textcolor{accentBlue}{\small\faAngleRight}] #1
+}
+
+% Custom lists
+\setlist[itemize]{leftmargin=12pt, itemsep=1pt, parsep=0pt, topsep=2pt}
+
+% Header command
+\newcommand{\makeheader}{
+\begin{center}
+\begin{tikzpicture}[remember picture, overlay]
+    \fill[citadelBlue!5] (-0.5\paperwidth,-0.8) rectangle (0.5\paperwidth,1.2);
+\end{tikzpicture}
+\vspace{3pt}
+{\fontsize{26}{30}\selectfont\bfseries\color{citadelBlue}JORGE J. ORTIZ, Ph.D.}\\[2pt]
+{\Large\color{darkGray}Machine Learning \& AI Research Leader}\\[1pt]
+{\large\color{mediumGray}Associate Professor, Rutgers \textbullet\ AI Lead, New York Yankees}\\[4pt]
+
+\begin{tikzpicture}
+\node[fill=citadelBlue!8, rounded corners=12pt, inner sep=6pt] {
+\begin{tabular}{c@{\hspace{12pt}}c@{\hspace{12pt}}c}
+\faEnvelope\ \href{mailto:jorge.ortiz@rutgers.edu}{\color{citadelBlue}{jorge.ortiz@rutgers.edu}} &
+\faGlobe\ \href{http://jorgeortizphd.info}{\color{citadelBlue}{jorgeortizphd.info}} &
+\faPhone\ \color{darkGray}{617-784-6550}
+\end{tabular}
+};
+\end{tikzpicture}
+\end{center}
+\vspace{2pt}
+}
+
+\begin{document}
+
+\makeheader
+
+\section{Executive Summary}
+\begin{center}
+\begin{tikzpicture}
+\node[fill=offWhite, rounded corners=8pt, inner sep=10pt, text width=\textwidth-20pt, align=justify] {
+Machine Learning and AI research leader with proven track record deploying production ML systems at scale. Currently AI \& Computer Vision Lead for New York Yankees Baseball Operations, applying advanced ML/computer vision to optimize performance and gain competitive advantage through data-driven insights. Ph.D. from UC Berkeley with 12+ years bridging cutting-edge research and real-world applications. Led \$32.4M research portfolio delivering measurable outcomes across autonomous systems, computer vision, time-series forecasting, and multimodal learning. Published 40+ peer-reviewed papers with multiple best paper awards. Strong quantitative foundation (MIT, UC Berkeley), exceptional technical depth, and demonstrated ability to lead cross-functional teams solving complex problems in high-stakes environments.
+};
+\end{tikzpicture}
+\end{center}
+
+\section{Education}
+\profentry{Ph.D., Computer Science}{2013}{University of California, Berkeley}{GPA: 3.9/4.0}\\[2pt]
+\profentry{M.S., Computer Science}{2010}{University of California, Berkeley}{GPA: 3.9/4.0}\\[2pt]
+\profentry{B.S., Computer Science}{2003}{Massachusetts Institute of Technology}{}
+
+\section{Professional Experience}
+
+\profentry{AI \& Computer Vision Lead, Baseball Operations}{Dec. 2019 -- Present}{New York Yankees}{}
+\vspace{2pt}
+\begin{itemize}
+\listentry{Lead applied ML/AI strategy for player performance optimization, injury prevention, and competitive intelligence in high-pressure, high-stakes environment requiring rapid iteration and measurable ROI}
+\listentry{Deploy production computer vision systems for automated player tracking, biomechanical analysis, and real-time performance metrics extraction from video at scale}
+\listentry{Build and manage quantitative models for player evaluation, performance forecasting, and strategic decision support directly impacting roster decisions and game strategy}
+\listentry{Develop custom ML pipelines integrating multimodal data (video, sensor, biomechanical) for actionable insights delivered to coaching staff and front office}
+\listentry{Lead cross-functional teams of engineers, analysts, and domain experts in fast-paced, results-driven environment}
+\end{itemize}
+
+\vspace{2pt}
+\profentry{Associate Professor (with Tenure)}{Sept. 2018 -- Present}{Rutgers University, Electrical and Computer Engineering}{}
+\vspace{2pt}
+\begin{itemize}
+\listentry{Direct Sensing and Reasoning (SnR) Lab focusing on production-ready ML systems, computer vision, time-series analysis, and multimodal learning with emphasis on real-world deployment}
+\listentry{Principal Investigator on \textbf{\$32.4M research portfolio} including NSF Engineering Research Center (\$26M), demonstrating ability to deliver large-scale technical programs with measurable outcomes}
+\listentry{Published 40+ peer-reviewed papers in top-tier ML venues (NeurIPS, ICML workshops, ACM conferences) with multiple best paper awards for rigorous technical contributions}
+\listentry{Mentor Ph.D. students on production ML systems: 3 graduates (2022-2023) now in industry research roles at major tech companies}
+\end{itemize}
+
+\vspace{2pt}
+\profentry{Research Staff Member}{Dec. 2013 -- Aug. 2018}{IBM Research}{}
+\vspace{2pt}
+\begin{itemize}
+\listentry{Advanced ML/AI systems for enterprise applications focusing on IoT analytics, predictive modeling, and large-scale data processing}
+\listentry{Developed novel algorithms for time-series forecasting, anomaly detection, and behavior modeling deployed in production systems}
+\listentry{12+ issued U.S. patents in machine learning, IoT sensing, and intelligent systems}
+\listentry{Published research on scalable ML systems, transfer learning, and semi-supervised learning with direct application to business problems}
+\end{itemize}
+
+\vspace{2pt}
+\profentry{Senior Software Engineer}{Jan. 2013 -- Sept. 2013}{Spire Global (Nanosatisfi)}{}
+\vspace{2pt}
+\begin{itemize}
+\listentry{Early-stage startup: built core satellite communication software and data processing pipelines for nanosatellite constellation}
+\end{itemize}
+
+\vspace{2pt}
+\profentry{Software Engineer}{Aug. 2003 -- Feb. 2007}{Oracle Corporation}{}
+\vspace{2pt}
+\begin{itemize}
+\listentry{Developed enterprise database software and optimization algorithms for Oracle Database 10g/11g}
+\end{itemize}
+
+\section{Technical Expertise}
+
+\begin{center}
+\begin{tikzpicture}
+\node[fill=offWhite, rounded corners=8pt, inner sep=10pt, text width=\textwidth-20pt, align=center] {
+\textbf{\color{citadelBlue}Machine Learning} \textbullet\ 
+\textbf{\color{citadelBlue}Computer Vision \& 3D Reconstruction} \textbullet\ 
+\textbf{\color{citadelBlue}Deep Learning (CNNs, Transformers, GANs)}\\[2pt]
+\textbf{\color{citadelBlue}Time-Series Analysis \& Forecasting} \textbullet\ 
+\textbf{\color{citadelBlue}Statistical Modeling \& Optimization} \textbullet\ 
+\textbf{\color{citadelBlue}Multimodal Learning}\\[2pt]
+\textbf{\color{citadelBlue}Large-Scale Data Processing} \textbullet\ 
+\textbf{\color{citadelBlue}Production ML Systems} \textbullet\ 
+\textbf{\color{citadelBlue}Python, C/C++, PyTorch, TensorFlow}
+};
+\end{tikzpicture}
+\end{center}
+
+\section{Key Achievements \& Impact}
+
+\begin{itemize}
+\listentry{\textbf{\color{citadelBlue}Yankees AI Leadership}: 6+ years deploying production ML/computer vision systems directly impacting performance optimization and strategic decision-making in elite competitive environment}
+
+\listentry{\textbf{\color{citadelBlue}Research Funding Leadership}: Principal Investigator on \textbf{\$32.4M research portfolio} including NSF Engineering Research Center (\$26M), NIH CAMERA Platform (\$3.2M), NSF ReDDDoT (\$1.45M), NSF IUCRC CRAIG (\$1.5M)}
+
+\listentry{\textbf{\color{citadelBlue}NeurIPS 2025}: ``DFGauss: Dynamic Focused Masking for Autoregressive 3D Occupancy Prediction'' -- Novel computer vision approach for 3D scene understanding using Gaussian splatting and autoregressive modeling}
+
+\listentry{\textbf{\color{citadelBlue}Best Paper Awards}: ICISSP 2018 (Award), IoTDI 2019 (Finalist), BuildSys 2015 (2× Finalist) -- Recognition for technically rigorous, high-impact research}
+
+\listentry{\textbf{\color{citadelBlue}Impactors Award}: Center for Smart Streetscapes, November 2025 -- Recognized for research impact providing tangible outcomes others can utilize}
+
+\listentry{\textbf{\color{citadelBlue}Innovation}: 12+ issued U.S. patents demonstrating technology transfer from research to production systems}
+
+\listentry{\textbf{\color{citadelBlue}Judge}: Newsweek AI Impact Awards 2025 -- Independent evaluator for global AI innovations}
+
+\listentry{\textbf{\color{citadelBlue}Leadership}: Steering Committee Chair ACM BuildSys (2024-25), General Chair ACM BuildSys (2022) -- Leading international research community}
+\end{itemize}
+
+\section{Selected Publications (40+ Peer-Reviewed Papers)}
+
+\textbf{\color{citadelBlue}Computer Vision \& 3D Understanding}
+\begin{itemize}[topsep=0pt]
+\listentry{Y. Sun, J. Contreras, \textbf{J. Ortiz}, ``DFGauss: Dynamic Focused Masking for Autoregressive 3D Occupancy Prediction,'' \textit{Advances in Neural Information Processing Systems (NeurIPS)}, 2025.}
+\end{itemize}
+
+\textbf{\color{citadelBlue}Autonomous Systems \& Safety}
+\begin{itemize}[topsep=0pt]
+\listentry{Y. Sun, N. Salami Pargoo, P. Jin, \textbf{J. Ortiz}, ``Optimizing Autonomous Driving for Safety: A Human-Centric Approach with LLM-Enhanced RLHF,'' \textit{ACM UbiComp Companion}, 2024.}
+\end{itemize}
+
+\textbf{\color{citadelBlue}ML Systems \& IoT Analytics}
+\begin{itemize}[topsep=0pt]
+\listentry{\textbf{J. Ortiz} et al., ``DeviceMien: Network Device Behavior Modeling for Identifying Unknown IoT Devices,'' \textit{ACM IoTDI}, 2019. \textbf{\color{accentBlue}[Best Paper Finalist]}}
+
+\listentry{M. Aldeer, \textbf{J. Ortiz}, et al., ``PatientSense: Patient Discrimination from in-Bottle Sensors Data,'' \textit{ACM MobiQuitous}, 2019.}
+\end{itemize}
+
+\textbf{\color{citadelBlue}Time-Series Analysis \& Scalable Systems}
+\begin{itemize}[topsep=0pt]
+\listentry{D. Hong, H. Wang, \textbf{J. Ortiz}, K. Whitehouse, ``The Building Adapter: Towards Quickly Applying Building Analytics at Scale,'' \textit{ACM BuildSys}, 2015. \textbf{\color{accentBlue}[Best Paper Finalist]}}
+\end{itemize}
+
+\textbf{\color{citadelBlue}Multimodal Learning \& Human Activity Recognition}
+\begin{itemize}[topsep=0pt]
+\listentry{T. Wu et al., \textbf{J. Ortiz}, ``DeepCare: Generalizing Across Domains in Monitoring Older Adult Behaviors,'' \textit{IEEE Pervasive Computing}, 2021.}
+
+\listentry{T. Chowdhury, \textbf{J. Ortiz}, et al., ``SWAP: Staged Wearable-Assisted Pedagogy for Synchronous Judo Techniques,'' \textit{ACM IMWUT}, 2022.}
+\end{itemize}
+
+\section{Leadership \& Service}
+\begin{itemize}
+\listentry{\textbf{\color{citadelBlue}Conference Leadership}: Steering Committee Chair ACM BuildSys (2024-25), General Chair ACM BuildSys (2022), Publication Chair CPS-IoT Week (2019)}
+\listentry{\textbf{\color{citadelBlue}2025 Technical Program Committees}: ACM MobiHoc, Sensys, BuildSys, ICLR}
+\listentry{\textbf{\color{citadelBlue}Workshop Organization}: NeurIPS 2021 Deep Learning \& Differential Equations (Organizer)}
+\listentry{\textbf{\color{citadelBlue}Mentorship}: Ph.D. advisor to 3 graduates (2022-2023), AAAI Undergraduate Consortium Coordinator, LatinX in AI Mentor}
+\end{itemize}
+
+\vspace{6pt}
+\begin{center}
+\begin{tikzpicture}
+\node[fill=citadelBlue!8, rounded corners=8pt, inner sep=8pt, text width=\textwidth-20pt, align=center] {
+\textbf{\color{citadelBlue}Core Strengths:} Translating cutting-edge ML research into production systems \textbullet\ Leading technical teams in high-stakes environments \textbullet\ Delivering measurable business impact through data-driven insights \textbullet\ Strong quantitative foundation with proven track record of innovation
+};
+\end{tikzpicture}
+\end{center}
+
+\end{document}
+
