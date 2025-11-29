@@ -16,9 +16,9 @@
 \definecolor{offWhite}{RGB}{250, 250, 250}
 
 % Page layout
-\usepackage[letterpaper, margin=0.65in, top=0.5in, bottom=0.6in]{geometry}
+\usepackage[letterpaper, margin=0.6in, top=0.45in, bottom=0.5in]{geometry}
 \usepackage{setspace}
-\setstretch{1.0}
+\setstretch{0.95}
 
 % Graphics and design
 \usepackage{tikz}
@@ -57,7 +57,7 @@
 {0em}
 {\MakeUppercase}[\vspace{1pt}\sectionline\vspace{3pt}]
 
-\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\section}{0pt}{6pt}{3pt}
 
 % Professional entry formatting
 \newcommand{\profentry}[4]{
@@ -79,7 +79,7 @@
 }
 
 % Custom lists
-\setlist[itemize]{leftmargin=12pt, itemsep=1pt, parsep=0pt, topsep=2pt}
+\setlist[itemize]{leftmargin=12pt, itemsep=0.5pt, parsep=0pt, topsep=1pt}
 
 % Header command
 \newcommand{\makeheader}{
@@ -87,10 +87,10 @@
 \begin{tikzpicture}[remember picture, overlay]
     \fill[citadelBlue!5] (-0.5\paperwidth,-0.8) rectangle (0.5\paperwidth,1.2);
 \end{tikzpicture}
-\vspace{3pt}
-{\fontsize{26}{30}\selectfont\bfseries\color{citadelBlue}JORGE J. ORTIZ, Ph.D.}\\[2pt]
-{\Large\color{darkGray}Machine Learning \& AI Research Leader}\\[1pt]
-{\large\color{mediumGray}Tenured Associate Professor, Rutgers \textbullet\ AI \& Computer Vision Lead, New York Yankees}\\[4pt]
+\vspace{2pt}
+{\fontsize{24}{28}\selectfont\bfseries\color{citadelBlue}JORGE J. ORTIZ, Ph.D.}\\[1pt]
+{\Large\color{darkGray}Machine Learning \& AI Research Leader}\\[0.5pt]
+{\large\color{mediumGray}Tenured Associate Professor, Rutgers \textbullet\ AI \& Computer Vision Lead, New York Yankees}\\[3pt]
 
 \begin{tikzpicture}
 \node[fill=citadelBlue!8, rounded corners=12pt, inner sep=6pt] {
@@ -110,20 +110,22 @@
 \makeheader
 
 \section{Executive Summary}
+\vspace{-2pt}
 \begin{center}
 \begin{tikzpicture}
-\node[fill=offWhite, rounded corners=8pt, inner sep=10pt, text width=\textwidth-20pt, align=justify] {
+\node[fill=offWhite, rounded corners=8pt, inner sep=8pt, text width=\textwidth-20pt, align=justify] {
 Machine learning researcher focused on large-scale multimodal modeling, sequence learning, and production computer vision systems. Currently AI \& Computer Vision Lead for New York Yankees Baseball Operations, applying advanced ML/computer vision to optimize performance and gain competitive advantage through data-driven insights. Ph.D. from UC Berkeley with 12+ years bridging cutting-edge research and real-world applications. Experience building latency-sensitive models in high-noise environments and deploying systems used for real-time decision support. Published 40+ peer-reviewed papers with multiple best paper awards including NeurIPS 2025. Strong quantitative foundation (MIT, UC Berkeley), exceptional technical depth, and demonstrated ability to lead cross-functional teams solving complex problems in high-stakes environments.
 };
 \end{tikzpicture}
 \end{center}
 
 \section{Education}
+\vspace{-2pt}
 \begin{tabularx}{\textwidth}{@{}X r@{}}
 \textbf{\color{darkGray}Ph.D., Computer Science} & \textcolor{mediumGray}{\textit{2013}} \\
-\textcolor{mediumGray}{University of California, Berkeley} & \\[4pt]
+\textcolor{mediumGray}{University of California, Berkeley} & \\[2pt]
 \textbf{\color{darkGray}M.S., Computer Science} & \textcolor{mediumGray}{\textit{2010}} \\
-\textcolor{mediumGray}{University of California, Berkeley} & \\[4pt]
+\textcolor{mediumGray}{University of California, Berkeley} & \\[2pt]
 \textbf{\color{darkGray}B.S., Computer Science} & \textcolor{mediumGray}{\textit{2003}} \\
 \textcolor{mediumGray}{Massachusetts Institute of Technology} & \\
 \end{tabularx}
@@ -139,7 +141,7 @@ Machine learning researcher focused on large-scale multimodal modeling, sequence
 \listentry{Lead cross-functional teams of engineers, analysts, and domain experts in fast-paced, results-driven environment}
 \end{itemize}
 
-\vspace{4pt}
+\vspace{3pt}
 \profentry{Associate Professor (with Tenure)}{Sept. 2018 -- Present}{Rutgers University, Electrical and Computer Engineering}{}
 \begin{itemize}
 \listentry{Lead research group focused on multimodal deep learning, time-series modeling, and large-scale ML infrastructure}
@@ -148,7 +150,7 @@ Machine learning researcher focused on large-scale multimodal modeling, sequence
 \listentry{Mentor Ph.D. students on production ML systems: 3 graduates (2022-2023) now in industry research roles at major tech companies}
 \end{itemize}
 
-\vspace{4pt}
+\vspace{3pt}
 \profentry{Research Staff Member}{Dec. 2013 -- Aug. 2018}{IBM Research}{}
 \begin{itemize}
 \listentry{Advanced ML/AI systems for enterprise applications focusing on IoT analytics, predictive modeling, and large-scale data processing}
@@ -157,23 +159,16 @@ Machine learning researcher focused on large-scale multimodal modeling, sequence
 \listentry{12+ issued U.S. patents in machine learning, IoT sensing, and intelligent systems}
 \end{itemize}
 
-\vspace{4pt}
+\vspace{3pt}
 \profentry{Senior Software Engineer}{Jan. 2013 -- Sept. 2013}{Spire Global (Nanosatisfi)}{}
-\begin{itemize}
-\listentry{Early-stage startup: built core satellite communication software and data processing pipelines for nanosatellite constellation}
-\end{itemize}
-
-\vspace{4pt}
+\vspace{-2pt}
 \profentry{Software Engineer}{Aug. 2003 -- Feb. 2007}{Oracle Corporation}{}
-\begin{itemize}
-\listentry{Developed enterprise database software and optimization algorithms for Oracle Database 10g/11g}
-\end{itemize}
 
 \section{Technical Expertise}
-
+\vspace{-2pt}
 \begin{center}
 \begin{tikzpicture}
-\node[fill=offWhite, rounded corners=8pt, inner sep=10pt, text width=\textwidth-20pt, align=center] {
+\node[fill=offWhite, rounded corners=8pt, inner sep=7pt, text width=\textwidth-20pt, align=center] {
 \textbf{\color{citadelBlue}Machine Learning} \textbullet\ 
 \textbf{\color{citadelBlue}Computer Vision \& 3D Reconstruction} \textbullet\ 
 \textbf{\color{citadelBlue}Deep Learning (CNNs, Transformers, GANs)}\\[2pt]
@@ -217,10 +212,10 @@ Machine learning researcher focused on large-scale multimodal modeling, sequence
 \section{Mentoring}
 Mentor Ph.D. researchers working on multimodal ML and production systems: 3 graduates (2022-2023) now in industry research roles.
 
-\vspace{6pt}
+\vspace{4pt}
 \begin{center}
 \begin{tikzpicture}
-\node[fill=citadelBlue!8, rounded corners=8pt, inner sep=8pt, text width=\textwidth-20pt, align=center] {
+\node[fill=citadelBlue!8, rounded corners=8pt, inner sep=6pt, text width=\textwidth-20pt, align=center] {
 \textbf{\color{citadelBlue}Strengths:} Building robust ML systems from noisy real-world data \textbullet\ Fast iteration under uncertainty \textbullet\ Deploying deep learning models at scale
 };
 \end{tikzpicture}
