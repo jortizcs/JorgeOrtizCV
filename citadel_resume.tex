@@ -61,10 +61,17 @@
 
 % Professional entry formatting
 \newcommand{\profentry}[4]{
-    \begin{tabularx}{\textwidth}{@{}X r@{}}
-        \textbf{\color{darkGray}#1} & \textcolor{mediumGray}{\textit{#2}} \\
-        \textcolor{mediumGray}{#3} & #4
-    \end{tabularx}
+    \noindent
+    \begin{minipage}[t]{0.68\textwidth}
+        \textbf{\color{darkGray}#1}\\
+        \textcolor{mediumGray}{#3}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.28\textwidth}
+        \raggedleft
+        \textcolor{mediumGray}{\textit{#2}}\\
+        #4
+    \end{minipage}
 }
 
 \newcommand{\listentry}[1]{
