@@ -3,6 +3,13 @@
 ## Project Overview
 This is a comprehensive LaTeX-based curriculum vitae (CV) for Jorge J. Ortiz, Associate Professor at Rutgers University. The project uses multiple bibliography files to organize different types of publications and achievements.
 
+## Tailored Resume
+
+- **`anthropic_resume.tex` / `Jorge_Ortiz_Anthropic_Research_Lead.pdf`**
+  - Two-page resume tailored to Anthropic's Research Lead, Training Insights role
+  - Emphasizes long-horizon agent evaluation, capability measurement, formal verification, research leadership, and cross-organizational execution
+  - Keeps the full academic CV in `main.tex` / `main.pdf` unchanged
+
 ## File Structure
 
 ### Main Document Files
@@ -111,4 +118,4 @@ Based on publication titles and content:
 - **Email**: jortiz@alum.mit.edu
 - **Website**: http://jorgeortizphd.info
 - **Phone**: 617-784-6550
-- **Institution**: Rutgers University, Electrical and Computer Engineering 
+- **Institution**: Rutgers University, Electrical and Computer Engineering

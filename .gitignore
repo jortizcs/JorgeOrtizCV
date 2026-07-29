@@ -24,6 +24,7 @@ stairwai_proposal.md
 # PDF outputs
 *.pdf
 !main.pdf
+!Jorge_Ortiz_Anthropic_Research_Lead.pdf
 
 # LaTeX temporary files
 *.nav
@@ -39,4 +40,3 @@ stairwai_proposal.md
 # OS files
 .DS_Store
 Thumbs.db
-

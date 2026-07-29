@@ -1,0 +1,198 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.94]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{microtype}
+\usepackage[letterpaper,left=0.62in,right=0.62in,top=0.48in,bottom=0.52in]{geometry}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+
+\definecolor{ink}{HTML}{191918}
+\definecolor{muted}{HTML}{5F5D58}
+\definecolor{accent}{HTML}{C45F3C}
+\definecolor{rulecolor}{HTML}{CFCBC3}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdftitle={Jorge J. Ortiz - AI Evaluation and Research Leader},
+  pdfauthor={Jorge J. Ortiz},
+  pdfsubject={Resume tailored for Research Lead, Training Insights at Anthropic},
+  pdfkeywords={AI evaluation, long-horizon agents, capability measurement, research leadership, trustworthy AI, formal verification}
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{
+  leftmargin=1.15em,
+  itemsep=1.6pt,
+  topsep=2.2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+\renewcommand\labelitemi{\textcolor{accent}{\raisebox{0.15ex}{\scriptsize$\blacktriangleright$}}}
+
+\titleformat{\section}
+  {\large\bfseries\color{ink}}
+  {}
+  {0pt}
+  {}
+  [\vspace{-5pt}\textcolor{rulecolor}{\rule{\textwidth}{0.55pt}}]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\newcommand{\role}[4]{%
+  \par\noindent
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    \textbf{\color{ink}#1} & \textbf{\color{muted}#2}\\
+    \textit{\color{muted}#3} & \textit{\color{muted}#4}
+  \end{tabularx}\par
+}
+
+\newcommand{\project}[3]{%
+  \par\noindent
+  \textbf{\color{ink}#1}\hfill\textbf{\color{muted}#2}\\[-1pt]
+  \textit{\color{muted}#3}\par
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{24}{27}\selectfont\bfseries\color{ink} JORGE J. ORTIZ}\\[2pt]
+  {\large\bfseries\color{accent} AI Evaluation \& Research Leader | Trustworthy Agentic Systems}\\[4pt]
+  \small
+  Piscataway, NJ (New York City metro) \enspace|\enspace
+  \href{mailto:jorge.ortiz@rutgers.edu}{jorge.ortiz@rutgers.edu} \enspace|\enspace
+  617-784-6550\\[-1pt]
+  \href{https://ortiz.rutgers.edu}{ortiz.rutgers.edu} \enspace|\enspace
+  \href{https://www.linkedin.com/in/jorgeortizphd/}{LinkedIn} \enspace|\enspace
+  \href{https://scholar.google.com/citations?user=AcyG538AAAAJ&hl=en}{Google Scholar} \enspace|\enspace
+  \href{https://github.com/jortizcs}{GitHub}
+\end{center}
+
+\vspace{-3pt}
+\section{Research Leadership Profile}
+\small
+\justifying
+Hands-on AI research leader who builds evaluation systems for models and agents operating under real-world uncertainty. Research connects long-horizon agent evaluation, formal verification, runtime monitoring, multimodal capability measurement, and explicit abstention: determining not only what a system can do, but when its evidence is sufficient to act. Director of the Sensing \& Reasoning Lab; Rutgers site director or lead for two NSF centers; Associate Professor with tenure; and applied AI lead in professional sports. Experienced setting research direction, mentoring researchers and engineers, writing production-oriented research code, and communicating limitations and evidence to technical and non-technical stakeholders.
+
+\section{Relevant Research \& Evaluation Leadership}
+
+\role{Director, Sensing \& Reasoning Lab}{2018--Present}
+{Rutgers University}{Piscataway, NJ}
+\begin{itemize}
+  \item Set the research agenda for trustworthy agentic AI, multimodal reasoning, causal inference, and self-assessing systems; lead projects from hypothesis and experimental design through implementation, deployment, publication, and external communication.
+  \item Mentor multidisciplinary researchers and engineers; graduated three Ph.D. students and lead collaborations spanning computer science, engineering, human--robot interaction, health, and urban systems.
+  \item Build evaluation methods around explicit competency boundaries, calibrated uncertainty, failure analysis, and human escalation instead of benchmark score alone.
+\end{itemize}
+
+\role{Rutgers Site Director, Center for Responsible AI \& Governance (CRAIG)}{2025--Present}
+{NSF Industry--University Cooperative Research Center}{Rutgers University}
+\begin{itemize}
+  \item Lead a cross-sector research program on the evidence required to justify AI deployment, translating technical evaluation results into reusable governance and decision frameworks.
+  \item Develop evaluation pipelines for agentic systems that combine formal guarantees, runtime evidence, guardrails, and auditable post-training behavior.
+\end{itemize}
+
+\role{Rutgers Site Lead, Center for Smart Streetscapes (CS3)}{2022--Present}
+{NSF Engineering Research Center}{Rutgers University}
+\begin{itemize}
+  \item Lead Rutgers research within a \$26M multi-institution center; align sensing, perception, privacy, and causal reasoning work across academic, government, community, and industry partners.
+  \item Drive evaluation in deployed settings where distribution shift, incomplete evidence, and operational constraints make capability boundaries consequential.
+\end{itemize}
+
+\section{Selected Work: Model Capabilities, Agents \& Measurement}
+
+\project{Veritas: Epistemic Oversight for Long-Running AI Agents}{2026--Present}
+{\href{https://github.com/jortizcs/veritas}{Open-source system} and
+\href{https://github.com/jortizcs/veritas-experiments}{evaluation harness}}
+\begin{itemize}
+  \item Designed an evidence-centered framework that records agent claims, decomposes verification obligations, runs independent checks, and gates consequential actions when evidence is unresolved.
+  \item Built controlled, multi-model evaluations of long-running workflows using matched conditions, clean-task do-no-harm panels, seeded faults, independent scoring, signed traces, explicit budgets and stopping rules, and reproducible evidence bundles.
+  \item Treat negative results and evaluator failures as first-class findings; use fault injection and replay to distinguish genuine repair, safe blocking, unnecessary intervention, and unsupported release.
+\end{itemize}
+
+\project{TraceFix: Verified Coordination for Agentic Systems}{ACM CAIS 2026}
+{Outstanding Solution Paper}
+\begin{itemize}
+  \item Use TLA+ model checking and counterexample-guided repair to find and fix deadlocks, races, and protocol violations in multi-agent coordination; enforce verified protocols with runtime topology monitoring.
+\end{itemize}
+
+\project{Explicit Abstention for Predictable VLM Reliability}{2026}
+{\href{https://arxiv.org/abs/2601.00138}{Preprint}}
+\begin{itemize}
+  \item Developed explicit abstention controls for video question answering to expose capability--coverage tradeoffs and make system reliability more predictable under uncertainty.
+\end{itemize}
+
+\project{Human-Centered RLHF for Autonomous Driving}{IMWUT/UbiComp 2024}
+{Model behavior and safety}
+\begin{itemize}
+  \item Co-developed an LLM-enhanced RLHF approach that incorporates human-centered safety preferences into autonomous-driving optimization and evaluation.
+\end{itemize}
+
+\section{Professional Experience}
+
+\role{Associate Professor (with Tenure), Electrical \& Computer Engineering}{2025--Present}
+{Rutgers University}{Piscataway, NJ}
+\begin{itemize}
+  \item Principal investigator or co-investigator on a \$32.4M portfolio across responsible AI, urban AI, health sensing, and intelligent infrastructure; balance scientific rigor with milestones, partner needs, and deployed-system constraints.
+  \item Leadership Research Faculty Fellow (2026), developing best practices for thoughtful AI use in research development.
+\end{itemize}
+
+\role{Assistant Professor, Electrical \& Computer Engineering}{2018--2025}
+{Rutgers University}{Piscataway, NJ}
+
+\role{AI \& Computer Vision Lead, Baseball Operations}{2019--Present}
+{New York Yankees}{New York, NY}
+\begin{itemize}
+  \item Lead applied computer-vision and biomechanics research for player development and performance, with an emphasis on robust measurement and signaling uncertainty in high-stakes decisions.
+\end{itemize}
+
+\role{Research Staff Member}{2013--2018}
+{IBM Research}{Yorktown Heights, NY}
+\begin{itemize}
+  \item Researched and built machine-learning, sensing, and distributed systems that moved from experimental prototypes toward real operating environments.
+\end{itemize}
+
+\role{Senior Software Engineer / Software Engineer}{2003--2013}
+{Spire Global / Oracle}{San Francisco Bay Area}
+
+\section{Selected Publications \& Research Signals}
+\begin{itemize}
+  \item \textbf{Xia, Li, Ehsan, Ortiz.} ``TraceFix: Repairing Agent Coordination Protocols with TLA+ Counterexamples.'' \textit{ACM Conference on AI and Society}, 2026. Outstanding Solution Paper.
+  \item \textbf{Ortiz.} ``Explicit Abstention Knobs for Predictable Reliability in Video Question Answering.'' arXiv:2601.00138, 2026.
+  \item \textbf{Sun, Contreras, Ortiz.} ``DFGauss: Dynamic Focused Masking for Autoregressive 3D Occupancy Prediction.'' \textit{NeurIPS}, 2025.
+  \item \textbf{Bu, Tsai, Tjokro, Bhattacharjee, Ortiz, Ju.} ``Using Vision-Language Models as Proxies for Social Intelligence in Human--Robot Interaction.'' 2025.
+  \item Research has appeared across NeurIPS, CoRL, IMWUT/UbiComp, IPSN, SenSys, IoTDI, and USENIX ATC; recipient of multiple best-paper and best-paper-finalist recognitions.
+\end{itemize}
+
+\section{Technical \& Organizational Strengths}
+\small
+\begin{tabularx}{\textwidth}{@{}>{\bfseries\color{ink}}p{1.35in}X@{}}
+Evaluation & Long-horizon agents; capability and coverage measurement; fault injection; matched experiments; independent scoring; ablations; negative-result analysis; reproducible evidence\\
+Trustworthy AI & Formal methods (TLA+); runtime monitoring; verification plans; evidence provenance; abstention; uncertainty calibration; causal reasoning; privacy-aware sensing\\
+Research leadership & Strategy and roadmaps; team mentorship; cross-functional collaboration; multi-institution programs; model-release-style technical narratives; stakeholder communication\\
+Implementation & Python, Go, C/C++; evaluation harnesses; ML/CV systems; distributed systems; experiment automation; open-source research artifacts
+\end{tabularx}
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+\textbf{Ph.D., Computer Science}, University of California, Berkeley & 2013\\
+\textbf{M.S., Computer Science}, University of California, Berkeley & 2010\\
+\textbf{B.S., Computer Science}, Massachusetts Institute of Technology & 2003
+\end{tabularx}
+
+\vfill
+\begin{center}
+\footnotesize\color{muted}
+Full publication record and project links: \href{https://ortiz.rutgers.edu}{ortiz.rutgers.edu}
+\end{center}
+
+\end{document}
